@@ -36,8 +36,7 @@ The annotated code snippet below provides a simple example with 3 clients with a
 ```python
 
 # Imports
-from ep_mpd.mpd import MultiPartyDeduplicator
-from ep_mpd.eg_psi.utils import EgPsiType, EgPsiDataType
+from ep_mpd import MultiPartyDeduplicator, EgPsiType, EgPsiDataType
 
 # Create three clients' datasets
 client1_data_original = [1,2,3,4]
