@@ -83,7 +83,7 @@ for x, y in zip(dedup_data_all, original_data_all):
 To reproduce the paper's benchmark results `main_int.py` can be used. The script takes the following command line arguments:
 
 ```
-usage: main_full_int.py [-h] [--psi-type PSI_TYPE] [--num-clients NUM_CLIENTS]
+usage: main_int.py [-h] [--psi-type PSI_TYPE] [--num-clients NUM_CLIENTS]
                         [--num-ele NUM_ELE] [--seed SEED] [--dup-per DUP_PER]
 
 Runs the EP-MPD deduplication protocol
