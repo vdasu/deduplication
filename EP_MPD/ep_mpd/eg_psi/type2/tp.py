@@ -1,4 +1,3 @@
-import oblivious.ristretto
 from oblivious.ristretto import scalar
 import oprf
 

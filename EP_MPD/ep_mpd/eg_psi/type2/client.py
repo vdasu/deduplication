@@ -2,10 +2,9 @@ import time
 from collections import defaultdict
 from typing import List, Tuple
 from oprf import mask, data
-import oprf
 
 from ep_mpd.eg_psi.utils import EgPsiDataType
-from ep_mpd.eg_psi.utils import encode_element, decode_element
+from ep_mpd.eg_psi.utils import encode_element
 from ep_mpd.eg_psi.type2.tp import SemiTrustedThirdPartyType2
 
 
