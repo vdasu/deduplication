@@ -1,5 +1,6 @@
 from typing import List, Dict
 import struct
+import base64
 import os
 import math
 from collections import defaultdict
@@ -42,7 +43,7 @@ def decode_element(ele_bytes: bytes, data_type: EgPsiDataType) -> int | str:
     if data_type == EgPsiDataType.INT:
         ele = struct.unpack("<I", ele_bytes)[0]
     elif data_type == EgPsiDataType.STR:
-        ele = ele_bytes.decode()
+        ele = base64.b64encode(ele_bytes.decode())
     return ele
 
 def create_int_elements_pairwise(num_clients, num_ele, dup_per):
