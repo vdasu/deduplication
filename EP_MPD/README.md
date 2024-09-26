@@ -80,7 +80,7 @@ for x, y in zip(dedup_data_all, original_data_all):
 
 ## Reproduce paper results
 
-To reproduce the paper's benchmark results `main_int.py` can be used. The script takes the following command line arguments:
+To reproduce the paper's benchmark results, `main_int.py` can be used. The script takes the following command line arguments:
 
 ```
 usage: main_int.py [-h] [--psi-type PSI_TYPE] [--num-clients NUM_CLIENTS]
