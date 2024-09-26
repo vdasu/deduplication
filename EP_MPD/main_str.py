@@ -1,5 +1,4 @@
-from ep_mpd.mpd import MultiPartyDeduplicator
-from ep_mpd.eg_psi.utils import EgPsiType, EgPsiDataType
+from ep_mpd import MultiPartyDeduplicator, EgPsiType, EgPsiDataType
 
 
 client1 = [
@@ -81,12 +80,19 @@ for client_id in mpd.clients:
     print("Client ID: {}, Data: {}".format(client_id, mpd.get_client_dataset(client_id=client_id)))
 
 
-print("\n\nVanilla non-private deduplication using Python builtins")
+print("\n\nNaive deduplication using Python set")
 client_data_full = []
 for data in client_data:
     client_data_full += data
 client_data_full = list(set(client_data_full))
-print(sorted(client_data_full))
+client_data_full.sort()
+print(client_data_full)
 
 print("\nFull dataset after MPD")
-print(sorted(mpd_full_dataset))
+mpd_full_dataset.sort()
+print(mpd_full_dataset)
+
+for x, y in zip(client_data_full, mpd_full_dataset):
+    assert x == y
+
+print("\nEP-MPD deduplication is same as Python naive deduplication")
