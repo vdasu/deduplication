@@ -6,8 +6,8 @@ This library implements the Efficient Privacy-Preserving Multi-Party Deduplicati
 
 The package requires a `python=3.10` environment. We recommend creating a new environment using `conda` to prevent any potential issues with your existing environments.
 
-1. (Optional but recommended) `conda create -n fed_dedup python=3.10`
-2. (Optional but recommended) `conda activate fed_dedup`
+1. (Optional but recommended) `conda create -n ep_mpd python=3.10`
+2. (Optional but recommended) `conda activate ep_mpd`
 3. `git clone https://github.com/vdasu/deduplication.git`
 4. `cd EP_MPD`
 5. `pip install .`
