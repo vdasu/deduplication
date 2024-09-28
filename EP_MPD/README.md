@@ -20,7 +20,7 @@ The following components from the `ep_mpd` library are required to run deduplica
 1. `EgPsiType`: Enum that is either `EgPsiType.TYPE1` or `EgPsiType.TYPE2` for Type 1 and Type 2 EG-PSI's respectively. Type 1 is based on symmetric key cryptography and Type 2 is based on public key cryptography. Refer to the paper for a detailed description of each type. 
 2. `EgPsiDataType`: Enum that is either `EgPsiDataType.INT` or `EgPsiDataType.STR` for integer and string datatypes respectively. Currently, the library works with integer and string datatypes only.
 3. `MultiPartyDeduplicator`: Class that provides the privacy-preserving deduplication functionality. The `MultiPartyDeduplicator` has the following attributes:
-   1. `client_data`: A 2-D list where each element is the corresponding client's dataset.
+   1. `client_data`: A 2-D list where each element is the corresponding client's dataset. The protocol assumes that each client performs local deduplication to remove any duplicates that exist within their own datasets prior to multi-party deduplication.
    2. `data_type`: The datatype of the datasets i.e. `EgPsiDataType.INT` or `EgPsiDataType.STR`.
    3. `eg_type`: The type of EG-PSI to use for deduplication. Either `EgPsiType.TYPE1` or `EgPsiType.TYPE2`.
    4. `debug`: Print each step of the deduplication protocol as clients form groups and deduplicate up to the root. Either `True` or `False`. (Warning: The `debug` option provides a detailed output of the progress of the deduplication. For large datasets and number of clients, the output might be difficult to parse manually. Should be used a for small experiments to visualize the protocol execution.)

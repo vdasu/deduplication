@@ -7,6 +7,8 @@ The `EP_MPD` folder implements our core contribution, a privacy-preserving data 
 
 The `FL` folder shows a working example of how to use `EP_MPD` as a pre-processing step to remove duplicates before running the `FedAvg` algorithm. It also contains code to analyze the effects of duplicates on the perplexity and running time of fine-tuning `GPT-2` models.
 
+Please refer to the two folders for detailed instructions on how to run.
+
 ## Citation
 
 ```
