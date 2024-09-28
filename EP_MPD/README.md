@@ -120,4 +120,4 @@ The scripts and folders under `logs` are:
 4. `plot_tee.py`: Used to generate Figures 6c, 7c, and 8c. This shows the effect of client count, dataset size, and duplication percentage on TEE running time.
 5. `Figures`: Contains the plots used in the paper.
 
-To generate plots for your own custom ensure, ensure that the log files follow the same format i.e. `{log2_dsize}_{client_count}_{duplication_percentage}.log`. Then, modify lines 15-24 of the plotting scripts with the parameters used to generate the logs. 
+To generate plots for your own custom runs, ensure that the log files follow the same format i.e. `{log2_dsize}_{client_count}_{duplication_percentage}.log`. Then, modify lines 15-24 of the plotting scripts with the parameters used to generate the logs. 
