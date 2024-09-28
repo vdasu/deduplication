@@ -78,7 +78,7 @@ for x, y in zip(dedup_data_all, original_data_all):
     assert x == y
 ```
 
-## Reproduce paper results
+## Reproduce the paper's results
 
 To reproduce the paper's benchmark results, `main_int.py` can be used. The script takes the following command line arguments:
 
@@ -108,16 +108,16 @@ Since we simulate all clients on a single machine, depending on the resources av
 
 The `main_str.py` script contains a simple example for string data with hardcoded lists for 8 clients. Simply run `python main_str.py`.
 
-## Reference
+### Generate Figures from Log Files
 
-```
-@misc{abadi2024privacypreservingdatadeduplicationenhancing,
-      title={Privacy-Preserving Data Deduplication for Enhancing Federated Learning of Language Models}, 
-      author={Aydin Abadi and Vishnu Asutosh Dasu and Sumanta Sarkar},
-      year={2024},
-      eprint={2407.08152},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2407.08152}, 
-}
-```
+This repository provides all the original log files and python scripts to generate the plots in the paper. The `logs` folder contains the logs for all the EP-MPD benchmarking experiments. The python scripts in the `logs` folder can be used to generate the plots in Figure 6,7, and 8 in the paper. You would need a local TeX installation and `matplotlib` (`pip install matplotlib`). The `logs` folder also contains the specifications of the machine used to run the experiments in the paper in `platform_spec.txt`. 
+
+The scripts and folders under `logs` are:
+
+1. `type1_runs` and `type2_runs`: These folders contain the detailed execution of the EP-MPD protocol using the parameters mentioned in the paper for EG-PSI Type-1 and Type-2 respectively. The parameter for each run can be parsed from the name of the log file. For example, `10_50_0.3.log` contains the log for 50 clients, with 2^10 dataset size, and 30% duplication.
+2. `plot_epmpd.py`: Used to generate Figures 6a, 7a, and 8a. This shows the effect of client count, dataset size, and duplication percentage on EP-MPD running time.
+3. `plot_client.py`: Used to generate Figures 6b, 7b, and 8b. This shows the effect of client count, dataset size, and duplication percentage on client running time.
+4. `plot_tee.py`: Used to generate Figures 6c, 7c, and 8c. This shows the effect of client count, dataset size, and duplication percentage on TEE running time.
+5. `Figures`: Contains the plots used in the paper.
+
+To generate plots for your own custom ensure, ensure that the log files follow the same format i.e. `{log2_dsize}_{client_count}_{duplication_percentage}.log`. Then, modify lines 15-24 of the plotting scripts with the parameters used to generate the logs. 

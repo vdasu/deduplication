@@ -1,0 +1,1 @@
+In this folder, results from Type 2 experiemts are docuemnted. This is different from the previous Type 2 results: here client and TP times are exclusively mentioend.
