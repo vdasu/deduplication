@@ -1,0 +1,211 @@
+
+
+Client 0 in round 0 has average training loss of 10.372861761706217
+Client 0 round 0 took 63.31207823753357 seconds
+
+
+
+Client 1 in round 0 has average training loss of 10.35526064804622
+Client 1 round 0 took 63.6369903087616 seconds
+
+
+
+Client 2 in round 0 has average training loss of 10.26247227362224
+Client 2 round 0 took 62.94777846336365 seconds
+
+
+
+Client 3 in round 0 has average training loss of 10.128157583304812
+Client 3 round 0 took 62.89328074455261 seconds
+
+
+
+Client 4 in round 0 has average training loss of 9.785521411895752
+Client 4 round 0 took 62.82424569129944 seconds
+
+
+
+Client 5 in round 0 has average training loss of 10.875044259003229
+Client 5 round 0 took 62.6546106338501 seconds
+
+
+
+Client 6 in round 0 has average training loss of 10.065652803012302
+Client 6 round 0 took 62.733154296875 seconds
+
+
+
+Client 7 in round 0 has average training loss of 10.667330404690334
+Client 7 round 0 took 62.871649503707886 seconds
+
+
+
+Client 8 in round 0 has average training loss of 10.034316892283304
+Client 8 round 0 took 62.837769985198975 seconds
+
+
+
+Client 9 in round 0 has average training loss of 10.317250038896288
+Client 9 round 0 took 62.7496554851532 seconds
+
+
+
+Average loss after round 0 is 10.28638680764607
+
+Average loss after round 0 is 10.28638680764607
+
+Aggregation took 5.563037157058716 seconds in round 0 
+
+
+
+Client 0 in round 1 has average training loss of 2.3181338787078856
+Client 0 round 1 took 63.38214135169983 seconds
+
+
+
+Client 1 in round 1 has average training loss of 2.356342041492462
+Client 1 round 1 took 63.8049521446228 seconds
+
+
+
+Client 2 in round 1 has average training loss of 2.6266985705920627
+Client 2 round 1 took 62.565152168273926 seconds
+
+
+
+Client 3 in round 1 has average training loss of 2.3163489529064725
+Client 3 round 1 took 62.7170307636261 seconds
+
+
+
+Client 4 in round 1 has average training loss of 2.2558778081621442
+Client 4 round 1 took 62.899906158447266 seconds
+
+
+
+Client 5 in round 1 has average training loss of 2.369834280865533
+Client 5 round 1 took 62.898022413253784 seconds
+
+
+
+Client 6 in round 1 has average training loss of 2.219575919423785
+Client 6 round 1 took 62.738401651382446 seconds
+
+
+
+Client 7 in round 1 has average training loss of 2.375540111746107
+Client 7 round 1 took 62.89550495147705 seconds
+
+
+
+Client 8 in round 1 has average training loss of 2.3404503073011123
+Client 8 round 1 took 62.84711718559265 seconds
+
+
+
+Client 9 in round 1 has average training loss of 2.3583699992724823
+Client 9 round 1 took 62.876896381378174 seconds
+
+
+
+Average loss after round 1 is 2.3537171870470046
+
+Average loss after round 1 is 2.3537171870470046
+
+Aggregation took 5.338373899459839 seconds in round 1 
+
+
+
+Client 0 in round 2 has average training loss of 2.3211943932941983
+Client 0 round 2 took 63.64284634590149 seconds
+
+
+
+Client 1 in round 2 has average training loss of 2.356703163896288
+Client 1 round 2 took 63.7908034324646 seconds
+
+
+
+Client 2 in round 2 has average training loss of 2.3943005885396684
+Client 2 round 2 took 62.79544973373413 seconds
+
+
+
+Client 3 in round 2 has average training loss of 2.330575610058648
+Client 3 round 2 took 62.84941053390503 seconds
+
+
+
+Client 4 in round 2 has average training loss of 2.2642392992973326
+Client 4 round 2 took 62.73934364318848 seconds
+
+
+
+Client 5 in round 2 has average training loss of 2.35892094373703
+Client 5 round 2 took 62.78046727180481 seconds
+
+
+
+Client 6 in round 2 has average training loss of 2.199380091258458
+Client 6 round 2 took 62.78200435638428 seconds
+
+
+
+Client 7 in round 2 has average training loss of 2.3652553268841334
+Client 7 round 2 took 62.82639741897583 seconds
+
+
+
+Client 8 in round 2 has average training loss of 2.3416507499558583
+Client 8 round 2 took 62.52381348609924 seconds
+
+
+
+Client 9 in round 2 has average training loss of 2.359364557266235
+Client 9 round 2 took 62.76318001747131 seconds
+
+
+
+Average loss after round 2 is 2.329158472418785
+
+Average loss after round 2 is 2.329158472418785
+
+Aggregation took 5.012218475341797 seconds in round 2 
+
+0: What art thou, that thou shouldst call me father?
+
+DUKE VINCENTIO:
+My lord, I am the father of this child,
+And I have begotten him from the womb: he is my heir.
+
+
+1: What art thou, that thou shouldst call me father?
+
+DUKE VINCENTIO:
+My lord, I am the father of this child,
+And I have begotten him from the womb: he is my son,
+
+
+2: What art thou, that thou shouldst call me father?
+
+DUKE VINCENTIO:
+My lord, I am the father of this child,
+And I have begotten him from the womb: he is my son.
+
+
+3: What art thou, that thou shouldst call me father?
+
+DUKE VINCENTIO:
+My lord, I am the father of this child,
+And I have begotten him from the womb: he is my heir,
+
+
+4: What art thou, that thou shouldst call me father?
+
+DUKE VINCENTIO:
+My lord, I am the father of this child,
+And I have begotten him from his mother's womb;
+I have
+
+
+Test Perplexity: 34.31949234008789

@@ -1,0 +1,306 @@
+
+
+Client 0 in round 0 has average training loss of 1.1171820655465126
+Client 0 round 0 took 64.95524454116821 seconds
+
+
+
+Client 1 in round 0 has average training loss of 1.13325697183609
+Client 1 round 0 took 65.2026014328003 seconds
+
+
+
+Client 2 in round 0 has average training loss of 1.1333454471826554
+Client 2 round 0 took 65.27600026130676 seconds
+
+
+
+Client 3 in round 0 has average training loss of 1.110135961174965
+Client 3 round 0 took 65.3175036907196 seconds
+
+
+
+Client 4 in round 0 has average training loss of 1.121535524725914
+Client 4 round 0 took 65.34317350387573 seconds
+
+
+
+Client 5 in round 0 has average training loss of 1.1347875583171845
+Client 5 round 0 took 65.31121945381165 seconds
+
+
+
+Client 6 in round 0 has average training loss of 1.1247503739595412
+Client 6 round 0 took 65.34231400489807 seconds
+
+
+
+Client 7 in round 0 has average training loss of 1.1147316099703313
+Client 7 round 0 took 65.34351897239685 seconds
+
+
+
+Client 8 in round 0 has average training loss of 1.129500376880169
+Client 8 round 0 took 65.36531639099121 seconds
+
+
+
+Client 9 in round 0 has average training loss of 1.121846567541361
+Client 9 round 0 took 65.22181177139282 seconds
+
+
+
+Average loss after round 0 is 1.1241072457134724
+
+Average loss after round 0 is 1.1241072457134724
+
+Aggregation took 9.338032960891724 seconds in round 0 
+
+
+
+Client 0 in round 1 has average training loss of 0.4351007370650768
+Client 0 round 1 took 65.26402711868286 seconds
+
+
+
+Client 1 in round 1 has average training loss of 0.43714969232678413
+Client 1 round 1 took 65.20892548561096 seconds
+
+
+
+Client 2 in round 1 has average training loss of 0.42216876849532126
+Client 2 round 1 took 65.39187574386597 seconds
+
+
+
+Client 3 in round 1 has average training loss of 0.4111438144743442
+Client 3 round 1 took 65.31571817398071 seconds
+
+
+
+Client 4 in round 1 has average training loss of 0.4217291103303432
+Client 4 round 1 took 65.36693096160889 seconds
+
+
+
+Client 5 in round 1 has average training loss of 0.42799312189221383
+Client 5 round 1 took 65.34222912788391 seconds
+
+
+
+Client 6 in round 1 has average training loss of 0.4179771126806736
+Client 6 round 1 took 65.3740062713623 seconds
+
+
+
+Client 7 in round 1 has average training loss of 0.41828243926167485
+Client 7 round 1 took 65.39505314826965 seconds
+
+
+
+Client 8 in round 1 has average training loss of 0.4419913190603256
+Client 8 round 1 took 65.34956645965576 seconds
+
+
+
+Client 9 in round 1 has average training loss of 0.42565381586551665
+Client 9 round 1 took 65.34665250778198 seconds
+
+
+
+Average loss after round 1 is 0.42591899314522746
+
+Average loss after round 1 is 0.42591899314522746
+
+Aggregation took 26.685179233551025 seconds in round 1 
+
+
+
+Client 0 in round 2 has average training loss of 0.38638794019818307
+Client 0 round 2 took 65.2296028137207 seconds
+
+
+
+Client 1 in round 2 has average training loss of 0.38769761279225345
+Client 1 round 2 took 65.38511395454407 seconds
+
+
+
+Client 2 in round 2 has average training loss of 0.3762483632564545
+Client 2 round 2 took 65.40047144889832 seconds
+
+
+
+Client 3 in round 2 has average training loss of 0.3609817270934582
+Client 3 round 2 took 65.43995356559753 seconds
+
+
+
+Client 4 in round 2 has average training loss of 0.3761298355460167
+Client 4 round 2 took 65.41576647758484 seconds
+
+
+
+Client 5 in round 2 has average training loss of 0.3865494275093079
+Client 5 round 2 took 65.26462244987488 seconds
+
+
+
+Client 6 in round 2 has average training loss of 0.371549795717001
+Client 6 round 2 took 65.39727902412415 seconds
+
+
+
+Client 7 in round 2 has average training loss of 0.37383507773280145
+Client 7 round 2 took 65.35962295532227 seconds
+
+
+
+Client 8 in round 2 has average training loss of 0.3920321448147297
+Client 8 round 2 took 65.28370928764343 seconds
+
+
+
+Client 9 in round 2 has average training loss of 0.3794166611135006
+Client 9 round 2 took 65.3159921169281 seconds
+
+
+
+Average loss after round 2 is 0.3790828585773706
+
+Average loss after round 2 is 0.3790828585773706
+
+Aggregation took 26.597086668014526 seconds in round 2 
+
+
+
+Client 0 in round 3 has average training loss of 0.39163625821471215
+Client 0 round 3 took 65.21369886398315 seconds
+
+
+
+Client 1 in round 3 has average training loss of 0.39098403319716457
+Client 1 round 3 took 65.24150800704956 seconds
+
+
+
+Client 2 in round 3 has average training loss of 0.37788299888372423
+Client 2 round 3 took 65.31780409812927 seconds
+
+
+
+Client 3 in round 3 has average training loss of 0.36462046056985853
+Client 3 round 3 took 65.34146428108215 seconds
+
+
+
+Client 4 in round 3 has average training loss of 0.377631316035986
+Client 4 round 3 took 65.31635022163391 seconds
+
+
+
+Client 5 in round 3 has average training loss of 0.3876829546689987
+Client 5 round 3 took 65.30378341674805 seconds
+
+
+
+Client 6 in round 3 has average training loss of 0.37456104993820194
+Client 6 round 3 took 65.28116130828857 seconds
+
+
+
+Client 7 in round 3 has average training loss of 0.37333250775933263
+Client 7 round 3 took 65.28232717514038 seconds
+
+
+
+Client 8 in round 3 has average training loss of 0.3973265892267227
+Client 8 round 3 took 65.29476714134216 seconds
+
+
+
+Client 9 in round 3 has average training loss of 0.37857390016317366
+Client 9 round 3 took 65.29553151130676 seconds
+
+
+
+Average loss after round 3 is 0.3814232068657875
+
+Average loss after round 3 is 0.3814232068657875
+
+Aggregation took 29.781612873077393 seconds in round 3 
+
+
+
+Client 0 in round 4 has average training loss of 0.4549525953829288
+Client 0 round 4 took 65.10687899589539 seconds
+
+
+
+Client 1 in round 4 has average training loss of 0.45471327543258666
+Client 1 round 4 took 65.24005961418152 seconds
+
+
+
+Client 2 in round 4 has average training loss of 0.4337091670930386
+Client 2 round 4 took 65.25415992736816 seconds
+
+
+
+Client 3 in round 4 has average training loss of 0.4222393362224102
+Client 3 round 4 took 65.17664289474487 seconds
+
+
+
+Client 4 in round 4 has average training loss of 0.4389833810925484
+Client 4 round 4 took 65.33661413192749 seconds
+
+
+
+Client 5 in round 4 has average training loss of 0.45218163043260573
+Client 5 round 4 took 65.24736905097961 seconds
+
+
+
+Client 6 in round 4 has average training loss of 0.4397380368411541
+Client 6 round 4 took 65.27217125892639 seconds
+
+
+
+Client 7 in round 4 has average training loss of 0.4347272536158562
+Client 7 round 4 took 65.20843887329102 seconds
+
+
+
+Client 8 in round 4 has average training loss of 0.46146237283945085
+Client 8 round 4 took 65.28807473182678 seconds
+
+
+
+Client 9 in round 4 has average training loss of 0.44668943569064146
+Client 9 round 4 took 65.2560043334961 seconds
+
+
+
+Average loss after round 4 is 0.443939648464322
+
+Average loss after round 4 is 0.443939648464322
+
+Aggregation took 30.836486101150513 seconds in round 4 
+
+0: the film's most striking feature is its ability to convey a sense of urgency without resorting to over-the-top dramatics.
+
+
+1: the film's most striking feature is its ability to convey a sense of urgency without ever resorting to clichéd melodrama.
+
+
+2: the film's most striking feature is its ability to convey a sense of urgency without resorting to over-the-top dramatic gestures.
+
+
+3: the movie is so bad that even the most ardent fans of bad movies will probably give up before they finish the movie.
+
+
+4: the movie is so bad that even the most ardent fans of bad movies will be disappointed.
+
+
+Test Perplexity: 2.2077386379241943
