@@ -49,6 +49,7 @@ def imdb_to_list(dataset_path="datasets/"):
     return imdb_list[:50000]
 
 def rotten_to_list(dataset_path="datasets/"):
+ 
     dataset = load_dataset("rotten_tomatoes")
 
     combined_dataset = concatenate_datasets([dataset["train"], dataset["validation"], dataset["test"]])
@@ -60,7 +61,10 @@ def rotten_to_list(dataset_path="datasets/"):
     
     np.random.shuffle(rotten_list)
 
-    return rotten_list[:50000]
+    if MODEL_NAME == "gpt2-large":
+        return rotten_list[:5000]
+    else:
+        return rotten_list[:50000]
 
 def haiku_to_list(dataset_path="datasets/"):
     haiku_path = os.path.join(dataset_path, "haiku.csv")
@@ -76,10 +80,12 @@ def haiku_to_list(dataset_path="datasets/"):
 
     np.random.shuffle(haiku_list)
 
-    return haiku_list[:50000]
+    if MODEL_NAME == "gpt2-large":
+        return haiku_list[:5000]
+    else:
+        return haiku_list[:50000]
 
 def wiki_bio_to_list(dataset_path="datasets/"):
-
     dataset = load_dataset("wiki_bio")
 
     wiki_list = []
@@ -97,7 +103,6 @@ def wiki_bio_to_list(dataset_path="datasets/"):
     return wiki_list[:50000]
 
 def shakespeare_to_list(dataset_path="datasets/"):
-
     dataset = load_dataset("Trelis/tiny-shakespeare")
 
     train_set = dataset["train"]
@@ -148,33 +153,37 @@ def poetry_to_list(dataset_path="datasets/"):
 
     return poetry_list[:50000]
 
+def get_text_dataset(dataset_name):
+    
+    if dataset_name == "Jokes":
+        data = jokes_to_list()
+    elif dataset_name == "IMDB":
+        data = imdb_to_list()
+    elif dataset_name == "Rotten":
+        data = rotten_to_list()
+    elif dataset_name == "Haiku":
+        data = haiku_to_list()
+    elif dataset_name == "WikiBio":
+        data = wiki_bio_to_list()
+    elif dataset_name == "Shakespeare":
+        data = shakespeare_to_list()
+    elif dataset_name == "Sonnets":
+        data = sonnets_to_list()
+    elif dataset_name == "Poetry":
+        data = poetry_to_list()
+
+    return data
+
 class TextDataset(Dataset):
 
-    def __init__(self, dataset_name, tokenizer):
+    def __init__(self, data, tokenizer):
 
         self.tokenizer = tokenizer
 
         self.input_ids = []
         self.attn_masks = []
 
-        # self.inputs = []
-
-        if dataset_name == "Jokes":
-            self.data = jokes_to_list()
-        elif dataset_name == "IMDB":
-            self.data = imdb_to_list()
-        elif dataset_name == "Rotten":
-            self.data = rotten_to_list()
-        elif dataset_name == "Haiku":
-            self.data = haiku_to_list()
-        elif dataset_name == "WikiBio":
-            self.data = wiki_bio_to_list()
-        elif dataset_name == "Shakespeare":
-            self.data = shakespeare_to_list()
-        elif dataset_name == "Sonnets":
-            self.data = sonnets_to_list()
-        elif dataset_name == "Poetry":
-            self.data = poetry_to_list()
+        self.data = data
 
         for text in self.data:
             encodings_dict = tokenizer(
@@ -193,15 +202,7 @@ class TextDataset(Dataset):
     def __getitem__(self, idx):
         return self.input_ids[idx], self.attn_masks[idx]
 
-
-def choose_from_top(probs, n=5):
-    ind = np.argpartition(probs, -n)[-n:]
-    top_prob = probs[ind]
-    top_prob = top_prob / np.sum(top_prob)  # Normalize
-    choice = np.random.choice(n, 1, p=top_prob)
-    token_id = ind[choice][0]
-    return int(token_id)
-
+# FedAvg Local Training
 def train_client(
     client_model,
     client_data_loader,
@@ -225,7 +226,7 @@ def train_client(
         num_training_steps=training_steps,
     )
 
-    # dummy scheduler steps
+    # dummy scheduler steps since for future rounds
     for _ in range(last_epoch):
         client_scheduler.step()
 
@@ -240,13 +241,9 @@ def train_client(
 
             client_model.zero_grad()
 
-            # inputs = data.to(device)
-
             outputs = client_model(
                 input_ids=input_ids, attention_mask=attn_masks, labels=input_ids
             )
-
-            # outputs = client_model(inputs, labels=inputs)
 
             loss = outputs[0]
 
@@ -259,9 +256,6 @@ def train_client(
             client_scheduler.step()
 
         avg_epoch_loss = epoch_loss / len(client_data_loader)
-        # print(
-        #     f"Client {client_id} in round {round} and epoch {epoch} had an average epoch loss of {avg_epoch_loss}"
-        # )
 
         total_train_loss += avg_epoch_loss
 

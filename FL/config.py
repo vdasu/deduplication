@@ -1,25 +1,27 @@
-# ML PARAMETERS
-MODEL_NAME = "gpt2-medium" # gpt2, gpt2-medium, gpt2-large, gpt2-xl
+# FL and ML PARAMETERS
+MODEL_NAME = "gpt2-medium"
 BATCH_SIZE = 8
 LEARNING_RATE = 5e-5
-DUPLICATE_RATE = 0.0 # between 0 and 1. 0 means no duplicates. 
+DUPLICATE_RATE = 0.3 # between 0 and 1
+MAX_SEQ_LEN = 500
 EPOCHS = 5
-DATASET = "Jokes" # Jokes, IMDB, Rotten, Haiku, WikiBio, Shakespeare, Sonnets, Poetry
-
+CLIENTS = 10
+ROUNDS = 5
+DATASET = "Haiku"
 EOS_TOKEN = "<|endoftext|>"
 BOS_TOKEN = "<|startoftext|>"
 PAD_TOKEN = "<|pad|>"
+TEST_RATIO = 0.2 # Ratio of samples to use in the Test dataset for final perplexity evaluation
+SEED = 123 # Random seed to distribute dataset among clients, create duplicates, and create the test dataset
 
-TEST_RATIO = 0.2 # Ratio of test samples
-SEED = 123 # Random seed for reproducibility
+# EP-MPD PARAMETERS
+# If True, then the EP-MPD deduplication will be applied to client datasets before FL training.
+# This will result in 0% duplication and will override the effects of DUPLICATE_RATE.
+# Setting this to true will effectively result in DUPLICATE_RATE = 0.0
+USE_EPMPD = True
+TYPE = 1 # Type can be 1 or 2
 
-# Directories to save models
+# Other params
+CACHE_PATH = "/scratch/vad5173"
 MODEL_PATH = "trained_models"
 MODEL_CACHE = "models_cache"
-
-# FL PARAMETERS
-CLIENTS = 10
-ROUNDS = 5
-
-# Path to download and cache huggingface models and data
-CACHE_PATH = "./"

@@ -3,13 +3,14 @@ import numpy as np
 import random
 import math
 from torch.optim import AdamW
-from transformers import GPT2LMHeadModel, GPT2Tokenizer, get_linear_schedule_with_warmup
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 from torch.utils.data import DataLoader, random_split
+from ep_mpd import MultiPartyDeduplicator, EgPsiType, EgPsiDataType
 import os
 import time
 
 from config import *
-from utils import TextDataset, choose_from_top, train_client, compute_test_perplexity
+from utils import TextDataset, train_client, compute_test_perplexity, get_text_dataset
 from copy import deepcopy
 
 os.environ["HF_HOME"] = CACHE_PATH
@@ -45,30 +46,76 @@ torch.save(
 )
 
 
-dataset = TextDataset(dataset_name=DATASET, tokenizer=tokenizer)
+############ Load dataset ############
 
-train_set, test_set = random_split(dataset, [1 - TEST_RATIO, TEST_RATIO])
+full_data = get_text_dataset(dataset_name=DATASET)
 
-# if duplicate rate is not 0, duplicate DUPLICATE_RATE percentage of random samples in train_set
+train_data, test_data = random_split(full_data, [1 - TEST_RATIO, TEST_RATIO])
+
+test_set = TextDataset(data=test_data, tokenizer=tokenizer)
+
+############ Implant duplicates in dataset ############
+
 if DUPLICATE_RATE > 0:
-    train_set_len = len(train_set)
-    num_duplicates = int(DUPLICATE_RATE * train_set_len)
-    duplicate_indices = np.random.choice(train_set_len, num_duplicates, replace=True)
-    train_set = torch.utils.data.ConcatDataset(
+    train_data_len = len(train_data)
+    num_duplicates = int(DUPLICATE_RATE * train_data_len)
+    duplicate_indices = np.random.choice(train_data_len, num_duplicates, replace=True)
+    train_data = torch.utils.data.ConcatDataset(
         [
-            train_set,
-            torch.utils.data.Subset(train_set, duplicate_indices),
+            train_data,
+            torch.utils.data.Subset(train_data, duplicate_indices),
         ]
     )
+
+############ Split dataset among clients ############
 
 splits = [1 / CLIENTS] * CLIENTS
 if sum(splits) != 1:
     splits[-1] += 1 - sum(splits)
-client_datasets = random_split(train_set, splits)
+client_data = random_split(train_data, splits)
+
+client_data_list = []
+
+for data in client_data:
+    client_data_list.append(list(data))
+
+
+
+############ EP-MPD Deduplication of datasets ############
+
+if USE_EPMPD:
+    
+    if TYPE == 1:
+        eg_type = EgPsiType.TYPE1
+    elif TYPE == 2:
+        eg_type = EgPsiType.TYPE2
+    else:
+        raise Exception("Unknown EG PSI type")
+
+    # First step is local deduplication by each client
+    for i in range(CLIENTS):
+        client_data_list[i] = list(set(client_data_list[i]))
+    
+    # Next clients use EP-MPD
+    mpd = MultiPartyDeduplicator(client_data=client_data_list, data_type=EgPsiDataType.STR, eg_type=eg_type, debug=False)
+    mpd.deduplicate()
+
+    # Client datasets are now deduplicated
+    for i in range(CLIENTS):
+        client_data_list[i] = mpd.get_client_dataset(i)
+    
+
+client_datasets = [ 
+    TextDataset(data=client_data_list[i], tokenizer=tokenizer) 
+    for i in range(CLIENTS)
+]
+
 client_data_loaders = [
     DataLoader(client_datasets[i], batch_size=BATCH_SIZE, shuffle=True)
     for i in range(CLIENTS)
 ]
+
+############ FedAvg FL TRAINING STARTS ############
 
 best_model = None
 best_loss = math.inf
@@ -112,9 +159,6 @@ for round in range(ROUNDS):
     print("\n\nAverage loss after round {} is {}\n".format(round, avg_loss))
     print("Average loss after round {} is {}\n".format(round, avg_loss))
 
-    # if avg_loss > 5.0:
-    #     break
-
     # Aggregate all client models and average them to get the new global model
     model_state_dict = deepcopy(model.state_dict())
 
@@ -139,11 +183,12 @@ for round in range(ROUNDS):
         os.path.join(MODEL_CACHE, f"global_{DATASET}.pt"),
     )
 
-
     if avg_loss < best_loss:
         best_loss = avg_loss
         best_model = deepcopy(model.state_dict())
         best_round = round
+
+############ Evaluate on test dataset ############
 
 model.load_state_dict(best_model)
 
@@ -154,7 +199,6 @@ prompt = BOS_TOKEN
 
 generated = torch.tensor(tokenizer.encode(prompt)).unsqueeze(0)
 generated = generated.to(device)
-
 
 # get ouputs using beam search
 sample_outputs = model.generate(
