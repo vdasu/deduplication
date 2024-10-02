@@ -1,8 +1,16 @@
 # Federated Learning and Deduplication
 
-Install PyTorch and Huggingface. It is recommend to use a CUDA enabled GPU with at least 50GB memory like the RTX A6000.
+_Note: The FL experiments require a GPU with at least 50GB memory like the RTX A6000 and can take up to 2 days to run._
 
-Configure the experiment setup using the parameters in `config.py`. The various paramters are explained in the file.
+This folder contains code to analyze the effect of duplicated data in federated learning and use the EP-MPD protocol to securely deduplicate the training datasets held by clients before the federated learning training procedure.
 
-Once the config file is set, run `main.py`. 
+## Installation Instructions
+
+1. Create the environment using anaconda: `conda env create -f environment.yml`
+2. Activate the environment: `conda activate fed_dedup`
+3. Install the EP-MPD library: `cd ../EP_MPD && pip install .`
+
+## Usage
+
+
 
