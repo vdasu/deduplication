@@ -1,0 +1,5 @@
+We use batch computing facility that provides with multicore computing system: 
+Partition = cpu-batch
+Nodes = 27
+Node Specification = Dual Intel Xeon E5-2660 v3 @ 2.6 GHz (20 cores/40 threads total) / 64GB RAM (1.5GB per thread / 3GB per core)
+CPU Cores = 540
