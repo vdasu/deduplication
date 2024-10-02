@@ -34,7 +34,6 @@ The following components from the `ep_mpd` library are required to run deduplica
 The annotated code snippet below provides a simple example with 3 clients with a dataset size of 5 elements:
 
 ```python
-
 # Imports
 from ep_mpd import MultiPartyDeduplicator, EgPsiType, EgPsiDataType
 
@@ -80,11 +79,24 @@ for x, y in zip(dedup_data_all, original_data_all):
 
 ## Reproduce the paper's results
 
-### Small Scale Experiments
+This repository provides all the original log files and python scripts to re-run the paper's experiments or generate the plots in the paper. The `run_paper` folder contains the logs for all the EP-MPD benchmarking experiments. The python scripts in the `run_paper` folder can be used to generate the plots in Figure 6,7, and 8 in the paper. You would need a local TeX installation and `matplotlib` (`pip install matplotlib`). The `run_paper` folder also contains the specifications of the machine used to run the experiments in the paper in `platform_spec.txt`. 
 
-### Paper's Experiments
+The scripts and folders under `run_paper` are:
 
-To reproduce the paper's benchmark results, `main_int.py` can be used. The script takes the following command line arguments:
+1. `type1_runs` and `type2_runs`: These folders contain the detailed execution of the EP-MPD protocol using the parameters mentioned in the paper for EG-PSI Type-1 and Type-2 respectively. The parameter for each run can be parsed from the name of the log file. For example, `10_50_0.3.log` contains the log for 50 clients, with 2^10 dataset size, and 30% duplication.
+2. `plot_epmpd.py`: Used to generate Figures 6a, 7a, and 8a. This shows the effect of client count, dataset size, and duplication percentage on EP-MPD running time.
+3. `plot_client.py`: Used to generate Figures 6b, 7b, and 8b. This shows the effect of client count, dataset size, and duplication percentage on client running time.
+4. `plot_tee.py`: Used to generate Figures 6c, 7c, and 8c. This shows the effect of client count, dataset size, and duplication percentage on TEE running time.
+5. `run.sh`: The bash script runs the deduplication protocol using the parameters from the paper. Note that the paper considers a large scale setting and it may not be feasible to run them on commodity hardware. Refer to the next section for smaller scale experiments.
+6. `Figures`: Contains the plots used in the paper.
+
+## Small Scale Experiments
+
+THe `run_small_scale` folder provides scripts to run experiments on a smaller scale on commodity hardware. The folder contains the same files as the `run_paper` folder but with smaller parameters. We test with client count in [5,10,15,20,25] and dataset size in [2^5, 2^7, 2^10, 2^13, 2^15]. These experiment run in under 15 minutes on an M1 Pro Macbook Pro. The `type1_runs` and `type2_runs` folders contain the logs for the small scale experiments. These will be overwritten after running `run.sh`. Similar to before, use the `plot*.py` scripts to generate the corresponding plots. 
+
+## Custom Parameters
+
+To validate the paper's claims with a different set of parameters, `main_int.py` can be used. The script takes the following command line arguments:
 
 ```
 usage: main_int.py [-h] [--psi-type PSI_TYPE] [--num-clients NUM_CLIENTS] [--num-ele NUM_ELE]
@@ -111,18 +123,6 @@ python main_int.py --psi-type 1 --num-clients 40 --num-ele 524288 --dup-per 0.3
 
 Since we simulate all clients on a single machine, depending on the resources available, you might run into out of memory issues. We recommend starting with 10 clients and gradually increasing the number of clients.
 
+## String Data
+
 The `main_str.py` script contains a simple example for string data with hardcoded lists for 8 clients. Simply run `python main_str.py`.
-
-### Generate Paper's Figures from Log Files
-
-This repository provides all the original log files and python scripts to generate the plots in the paper. The `logs` folder contains the logs for all the EP-MPD benchmarking experiments. The python scripts in the `logs` folder can be used to generate the plots in Figure 6,7, and 8 in the paper. You would need a local TeX installation and `matplotlib` (`pip install matplotlib`). The `logs` folder also contains the specifications of the machine used to run the experiments in the paper in `platform_spec.txt`. 
-
-The scripts and folders under `logs` are:
-
-1. `type1_runs` and `type2_runs`: These folders contain the detailed execution of the EP-MPD protocol using the parameters mentioned in the paper for EG-PSI Type-1 and Type-2 respectively. The parameter for each run can be parsed from the name of the log file. For example, `10_50_0.3.log` contains the log for 50 clients, with 2^10 dataset size, and 30% duplication.
-2. `plot_epmpd.py`: Used to generate Figures 6a, 7a, and 8a. This shows the effect of client count, dataset size, and duplication percentage on EP-MPD running time.
-3. `plot_client.py`: Used to generate Figures 6b, 7b, and 8b. This shows the effect of client count, dataset size, and duplication percentage on client running time.
-4. `plot_tee.py`: Used to generate Figures 6c, 7c, and 8c. This shows the effect of client count, dataset size, and duplication percentage on TEE running time.
-5. `Figures`: Contains the plots used in the paper.
-
-To generate plots for your own custom runs, ensure that the log files follow the same format i.e. `{log2_dsize}_{client_count}_{duplication_percentage}.log`. Then, modify lines 15-24 of the plotting scripts with the parameters used to generate the logs. 
