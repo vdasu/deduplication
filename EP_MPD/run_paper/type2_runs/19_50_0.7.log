@@ -1,0 +1,1951 @@
+EG PSI Type:  EgPsiType.TYPE2
+
+Setup time: 7639.82305
+
+Client: 0, Client Setup Time: 110.6804526885062
+
+Client: 1, Client Setup Time: 109.76571916502144
+
+Client: 2, Client Setup Time: 109.9096553563104
+
+Client: 3, Client Setup Time: 109.30107501395833
+
+Client: 4, Client Setup Time: 109.35054076804954
+
+Client: 5, Client Setup Time: 109.31969253010539
+
+Client: 6, Client Setup Time: 109.30737263705669
+
+Client: 7, Client Setup Time: 109.2832783788217
+
+Client: 8, Client Setup Time: 109.27985688509216
+
+Client: 9, Client Setup Time: 109.26500881988613
+
+Client: 10, Client Setup Time: 109.27012684658257
+
+Client: 11, Client Setup Time: 109.30124591191634
+
+Client: 12, Client Setup Time: 111.2474969157156
+
+Client: 13, Client Setup Time: 110.44441899733647
+
+Client: 14, Client Setup Time: 109.39017256036459
+
+Client: 15, Client Setup Time: 111.60128461967906
+
+Client: 16, Client Setup Time: 109.2682659991442
+
+Client: 17, Client Setup Time: 109.33064226948409
+
+Client: 18, Client Setup Time: 109.28992603712322
+
+Client: 19, Client Setup Time: 112.08000967977205
+
+Client: 20, Client Setup Time: 109.30441363670252
+
+Client: 21, Client Setup Time: 109.38911766262027
+
+Client: 22, Client Setup Time: 109.24898435738578
+
+Client: 23, Client Setup Time: 109.2998296812948
+
+Client: 24, Client Setup Time: 112.6653642506244
+
+Client: 25, Client Setup Time: 109.37571106104951
+
+Client: 26, Client Setup Time: 109.31927636160253
+
+Client: 27, Client Setup Time: 109.32014336609063
+
+Client: 28, Client Setup Time: 109.28048728588328
+
+Client: 29, Client Setup Time: 109.32342115805295
+
+Client: 30, Client Setup Time: 113.39934081733008
+
+Client: 31, Client Setup Time: 109.21937481960776
+
+Client: 32, Client Setup Time: 109.27522237173616
+
+Client: 33, Client Setup Time: 109.22504403872517
+
+Client: 34, Client Setup Time: 109.20968339407409
+
+Client: 35, Client Setup Time: 109.29250371875241
+
+Client: 36, Client Setup Time: 109.28404959588806
+
+Client: 37, Client Setup Time: 109.21702650603402
+
+Client: 38, Client Setup Time: 114.44565134062577
+
+Client: 39, Client Setup Time: 109.35663218473564
+
+Client: 40, Client Setup Time: 109.27740839346734
+
+Client: 41, Client Setup Time: 109.29129785529585
+
+Client: 42, Client Setup Time: 109.26025143988954
+
+Client: 43, Client Setup Time: 109.2966905920257
+
+Client: 44, Client Setup Time: 109.30630626720813
+
+Client: 45, Client Setup Time: 109.29273765477774
+
+Client: 46, Client Setup Time: 109.29163802051335
+
+Client: 47, Client Setup Time: 109.28200906767597
+
+Client: 48, Client Setup Time: 109.30053278563355
+
+Client: 49, Client Setup Time: 109.45585112532717
+
+Client: 0, TP Setup Time: 43.00680892449236
+
+Client: 1, TP Setup Time: 43.00663738897856
+
+Client: 2, TP Setup Time: 43.02684912368932
+
+Client: 3, TP Setup Time: 43.00968458004354
+
+Client: 4, TP Setup Time: 43.063105266948696
+
+Client: 5, TP Setup Time: 43.081623805894196
+
+Client: 6, TP Setup Time: 43.06470417894161
+
+Client: 7, TP Setup Time: 43.05218894817881
+
+Client: 8, TP Setup Time: 43.03764281190888
+
+Client: 9, TP Setup Time: 43.05153713911204
+
+Client: 10, TP Setup Time: 43.05359913441862
+
+Client: 11, TP Setup Time: 43.04101137408361
+
+Client: 12, TP Setup Time: 43.07456113628359
+
+Client: 13, TP Setup Time: 43.097715111664
+
+Client: 14, TP Setup Time: 43.05346091663523
+
+Client: 15, TP Setup Time: 43.06191986531849
+
+Client: 16, TP Setup Time: 43.03866013485458
+
+Client: 17, TP Setup Time: 43.05023794151566
+
+Client: 18, TP Setup Time: 43.03715754087898
+
+Client: 19, TP Setup Time: 43.06001081922659
+
+Client: 20, TP Setup Time: 43.042786976297066
+
+Client: 21, TP Setup Time: 43.053513579379796
+
+Client: 22, TP Setup Time: 43.04977274861449
+
+Client: 23, TP Setup Time: 43.045324305705435
+
+Client: 24, TP Setup Time: 43.0513515843777
+
+Client: 25, TP Setup Time: 43.06452990495018
+
+Client: 26, TP Setup Time: 43.03488027939602
+
+Client: 27, TP Setup Time: 43.02765079390883
+
+Client: 28, TP Setup Time: 43.00747137711733
+
+Client: 29, TP Setup Time: 43.010578638946754
+
+Client: 30, TP Setup Time: 43.01612404366824
+
+Client: 31, TP Setup Time: 43.01973807139075
+
+Client: 32, TP Setup Time: 42.99938966426271
+
+Client: 33, TP Setup Time: 43.00929243527571
+
+Client: 34, TP Setup Time: 43.026125484924705
+
+Client: 35, TP Setup Time: 43.002159024246794
+
+Client: 36, TP Setup Time: 43.02090669511017
+
+Client: 37, TP Setup Time: 43.00948093296756
+
+Client: 38, TP Setup Time: 43.00500289737465
+
+Client: 39, TP Setup Time: 43.00609353426262
+
+Client: 40, TP Setup Time: 43.00293445053467
+
+Client: 41, TP Setup Time: 43.01727615170239
+
+Client: 42, TP Setup Time: 42.99853447111309
+
+Client: 43, TP Setup Time: 43.015347996974015
+
+Client: 44, TP Setup Time: 43.040949152789835
+
+Client: 45, TP Setup Time: 43.02698046722435
+
+Client: 46, TP Setup Time: 43.00718632248754
+
+Client: 47, TP Setup Time: 43.00320916032433
+
+Client: 48, TP Setup Time: 43.02525854036503
+
+Client: 49, TP Setup Time: 43.02184361767286
+
+
+Current Level:  5
+
+Client: 2
+Send Times:  [0.0]
+
+Client: 2, Client Send Time: 1.510001311544329e-06
+
+Client: 5
+Send Times:  [0.0]
+
+Client: 5, Client Send Time: 1.5859986888244748e-06
+
+Client: 8
+Send Times:  [0.0]
+
+Client: 8, Client Send Time: 1.2470009096432477e-06
+
+Client: 11
+Send Times:  [0.0]
+
+Client: 11, Client Send Time: 1.1459997040219605e-06
+
+Client: 14
+Send Times:  [0.0]
+
+Client: 14, Client Send Time: 1.1369993444532156e-06
+
+Client: 17
+Send Times:  [0.0]
+
+Client: 17, Client Send Time: 1.0269977792631835e-06
+
+Client: 20
+Send Times:  [0.0]
+
+Client: 20, Client Send Time: 1.128999429056421e-06
+
+Client: 22
+Send Times:  [0.0]
+
+Client: 22, Client Send Time: 1.1410011211410165e-06
+
+Client: 24
+Send Times:  [0.0]
+
+Client: 24, Client Send Time: 1.1919983080588281e-06
+
+Client: 27
+Send Times:  [0.0]
+
+Client: 27, Client Send Time: 1.205000444315374e-06
+
+Client: 30
+Send Times:  [0.0]
+
+Client: 30, Client Send Time: 1.3669996405951679e-06
+
+Client: 33
+Send Times:  [0.0]
+
+Client: 33, Client Send Time: 1.0590010788291693e-06
+
+Client: 36
+Send Times:  [0.0]
+
+Client: 36, Client Send Time: 1.5780024114064872e-06
+
+Client: 39
+Send Times:  [0.0]
+
+Client: 39, Client Send Time: 1.2070013326592743e-06
+
+Client: 42
+Send Times:  [0.0]
+
+Client: 42, Client Send Time: 1.2939999578520656e-06
+
+Client: 45
+Send Times:  [0.0]
+
+Client: 45, Client Send Time: 1.1000010999850929e-06
+
+Client: 47
+Send Times:  [0.0]
+
+Client: 47, Client Send Time: 1.610002072993666e-06
+
+Client: 49
+Send Times:  [0.0]
+
+Client: 49, Client Send Time: 1.4209981600288302e-06
+
+Client: 1
+Receive Times:  [0.0]
+
+Client: 1, Client Receive Time: 2.016000507865101e-06
+
+Client: 4
+Receive Times:  [0.0]
+
+Client: 4, Client Receive Time: 2.333999873371795e-06
+
+Client: 7
+Receive Times:  [0.0]
+
+Client: 7, Client Receive Time: 2.0500010577961802e-06
+
+Client: 10
+Receive Times:  [0.0]
+
+Client: 10, Client Receive Time: 2.0369989215396345e-06
+
+Client: 13
+Receive Times:  [0.0]
+
+Client: 13, Client Receive Time: 2.2980020730756223e-06
+
+Client: 16
+Receive Times:  [0.0]
+
+Client: 16, Client Receive Time: 1.8970022210851312e-06
+
+Client: 19
+Receive Times:  [0.0]
+
+Client: 19, Client Receive Time: 1.8800019461195916e-06
+
+Client: 21
+Receive Times:  [0.0]
+
+Client: 21, Client Receive Time: 2.058000973192975e-06
+
+Client: 23
+Receive Times:  [0.0]
+
+Client: 23, Client Receive Time: 1.763000909704715e-06
+
+Client: 26
+Receive Times:  [0.0]
+
+Client: 26, Client Receive Time: 2.359000063734129e-06
+
+Client: 29
+Receive Times:  [0.0]
+
+Client: 29, Client Receive Time: 1.6739977581892163e-06
+
+Client: 32
+Receive Times:  [0.0]
+
+Client: 32, Client Receive Time: 2.0789993868675083e-06
+
+Client: 35
+Receive Times:  [0.0]
+
+Client: 35, Client Receive Time: 2.230997779406607e-06
+
+Client: 38
+Receive Times:  [0.0]
+
+Client: 38, Client Receive Time: 2.1029991330578923e-06
+
+Client: 41
+Receive Times:  [0.0]
+
+Client: 41, Client Receive Time: 1.8709979485720396e-06
+
+Client: 44
+Receive Times:  [0.0]
+
+Client: 44, Client Receive Time: 1.5890000213403255e-06
+
+Client: 46
+Receive Times:  [0.0]
+
+Client: 46, Client Receive Time: 1.8600003386382014e-06
+
+Client: 48
+Receive Times:  [0.0]
+
+Client: 48, Client Receive Time: 1.8139980966225266e-06
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 0.0
+
+Client: 1, Client Deduplicate Time: 0.06851
+
+Client: 4, Client Deduplicate Time: 0.06861
+
+Client: 7, Client Deduplicate Time: 0.06868
+
+Client: 10, Client Deduplicate Time: 0.06816
+
+Client: 13, Client Deduplicate Time: 0.0688
+
+Client: 16, Client Deduplicate Time: 0.06822
+
+Client: 19, Client Deduplicate Time: 0.06963
+
+Client: 21, Client Deduplicate Time: 0.06915
+
+Client: 23, Client Deduplicate Time: 0.06935
+
+Client: 26, Client Deduplicate Time: 0.06928
+
+Client: 29, Client Deduplicate Time: 0.0699
+
+Client: 32, Client Deduplicate Time: 0.06874
+
+Client: 35, Client Deduplicate Time: 0.06939
+
+Client: 38, Client Deduplicate Time: 0.06995
+
+Client: 41, Client Deduplicate Time: 0.0697
+
+Client: 44, Client Deduplicate Time: 0.06891
+
+Client: 46, Client Deduplicate Time: 0.06887
+
+Client: 48, Client Deduplicate Time: 0.06953
+
+
+Current Level:  4
+
+Client: 1
+Send Times:  [0.0]
+
+Client: 1, Client Send Time: 1.2259988579899073e-06
+
+Client: 2
+Send Times:  [0.0]
+
+Client: 2, Client Send Time: 3.899986040778458e-07
+
+Client: 4
+Send Times:  [0.0]
+
+Client: 4, Client Send Time: 1.5920013538561761e-06
+
+Client: 5
+Send Times:  [0.0]
+
+Client: 5, Client Send Time: 3.2500247471034527e-07
+
+Client: 7
+Send Times:  [0.0]
+
+Client: 7, Client Send Time: 1.2599994079209864e-06
+
+Client: 8
+Send Times:  [0.0]
+
+Client: 8, Client Send Time: 3.120003384537995e-07
+
+Client: 10
+Send Times:  [1e-05]
+
+Client: 10, Client Send Time: 5.083002179162577e-06
+
+Client: 11
+Send Times:  [0.0]
+
+Client: 11, Client Send Time: 3.62000719178468e-07
+
+Client: 13
+Send Times:  [0.0]
+
+Client: 13, Client Send Time: 1.0409967217128724e-06
+
+Client: 14
+Send Times:  [0.0]
+
+Client: 14, Client Send Time: 3.62000719178468e-07
+
+Client: 16
+Send Times:  [0.0]
+
+Client: 16, Client Send Time: 1.4260003808885813e-06
+
+Client: 17
+Send Times:  [0.0]
+
+Client: 17, Client Send Time: 3.770001058001071e-07
+
+Client: 19
+Send Times:  [0.0]
+
+Client: 19, Client Send Time: 1.1999982234556228e-06
+
+Client: 20
+Send Times:  [0.0]
+
+Client: 20, Client Send Time: 3.5500124795362353e-07
+
+Client: 23
+Send Times:  [0.0, 0.0]
+
+Client: 23, Client Send Time: 1.1119991540908813e-06
+
+Client: 24
+Send Times:  [0.0, 0.0]
+
+Client: 24, Client Send Time: 3.5999983083456755e-07
+
+Client: 26
+Send Times:  [0.0]
+
+Client: 26, Client Send Time: 1.2780001270584762e-06
+
+Client: 27
+Send Times:  [0.0]
+
+Client: 27, Client Send Time: 3.0999945010989904e-07
+
+Client: 29
+Send Times:  [0.0]
+
+Client: 29, Client Send Time: 1.2060008884873241e-06
+
+Client: 30
+Send Times:  [0.0]
+
+Client: 30, Client Send Time: 3.6499841371551156e-07
+
+Client: 32
+Send Times:  [0.0]
+
+Client: 32, Client Send Time: 1.0459989425726235e-06
+
+Client: 33
+Send Times:  [0.0]
+
+Client: 33, Client Send Time: 3.410023055039346e-07
+
+Client: 35
+Send Times:  [0.0]
+
+Client: 35, Client Send Time: 1.0730000212788582e-06
+
+Client: 36
+Send Times:  [0.0]
+
+Client: 36, Client Send Time: 3.209970600437373e-07
+
+Client: 38
+Send Times:  [0.0]
+
+Client: 38, Client Send Time: 1.2870004866272211e-06
+
+Client: 39
+Send Times:  [0.0]
+
+Client: 39, Client Send Time: 3.2000025385059416e-07
+
+Client: 41
+Send Times:  [0.0]
+
+Client: 41, Client Send Time: 1.5289988368749619e-06
+
+Client: 42
+Send Times:  [0.0]
+
+Client: 42, Client Send Time: 3.4999902709387243e-07
+
+Client: 44
+Send Times:  [0.0]
+
+Client: 44, Client Send Time: 1.172000338556245e-06
+
+Client: 45
+Send Times:  [0.0]
+
+Client: 45, Client Send Time: 3.530003596097231e-07
+
+Client: 48
+Send Times:  [0.0, 0.0]
+
+Client: 48, Client Send Time: 1.076998159987852e-06
+
+Client: 49
+Send Times:  [0.0, 0.0]
+
+Client: 49, Client Send Time: 3.450004442129284e-07
+
+Client: 0
+Receive Times:  [0.0, 0.0]
+
+Client: 0, Client Receive Time: 2.2659987735096365e-06
+
+Client: 3
+Receive Times:  [0.0, 0.0]
+
+Client: 3, Client Receive Time: 1.7550009943079203e-06
+
+Client: 6
+Receive Times:  [0.0, 0.0]
+
+Client: 6, Client Receive Time: 1.9660001271404326e-06
+
+Client: 9
+Receive Times:  [0.0, 0.0]
+
+Client: 9, Client Receive Time: 1.896998583106324e-06
+
+Client: 12
+Receive Times:  [0.0, 0.0]
+
+Client: 12, Client Receive Time: 2.410000888630748e-06
+
+Client: 15
+Receive Times:  [0.0, 0.0]
+
+Client: 15, Client Receive Time: 2.016000507865101e-06
+
+Client: 18
+Receive Times:  [0.0, 0.0]
+
+Client: 18, Client Receive Time: 1.8940008885692805e-06
+
+Client: 21
+Receive Times:  [0.0, 0.0]
+
+Client: 21, Client Receive Time: 1.9009967218153179e-06
+
+Client: 22
+Receive Times:  [0.0, 0.0]
+
+Client: 22, Client Receive Time: 5.629990482702851e-07
+
+Client: 25
+Receive Times:  [0.0, 0.0]
+
+Client: 25, Client Receive Time: 1.8099999579135329e-06
+
+Client: 28
+Receive Times:  [0.0, 0.0]
+
+Client: 28, Client Receive Time: 2.0949992176610976e-06
+
+Client: 31
+Receive Times:  [0.0, 0.0]
+
+Client: 31, Client Receive Time: 1.663000148255378e-06
+
+Client: 34
+Receive Times:  [0.0, 0.0]
+
+Client: 34, Client Receive Time: 1.567997969686985e-06
+
+Client: 37
+Receive Times:  [0.0, 0.0]
+
+Client: 37, Client Receive Time: 1.8329992599319667e-06
+
+Client: 40
+Receive Times:  [0.0, 0.0]
+
+Client: 40, Client Receive Time: 1.7189995560329407e-06
+
+Client: 43
+Receive Times:  [0.0, 0.0]
+
+Client: 43, Client Receive Time: 1.5350015019066632e-06
+
+Client: 46
+Receive Times:  [0.0, 0.0]
+
+Client: 46, Client Receive Time: 1.911997969727963e-06
+
+Client: 47
+Receive Times:  [0.0, 0.0]
+
+Client: 47, Client Receive Time: 7.039998308755457e-07
+
+Send Time of Group 1: 1e-05
+
+Receive Time of Group 0: 0.0
+
+Client: 0, Client Deduplicate Time: 0.13349
+
+Client: 3, Client Deduplicate Time: 0.13384
+
+Client: 6, Client Deduplicate Time: 0.13334
+
+Client: 9, Client Deduplicate Time: 0.13446
+
+Client: 12, Client Deduplicate Time: 0.13384
+
+Client: 15, Client Deduplicate Time: 0.13398
+
+Client: 18, Client Deduplicate Time: 0.1368
+
+Client: 21, Client Deduplicate Time: 0.13507
+
+Client: 22, Client Deduplicate Time: 0.13569
+
+Client: 25, Client Deduplicate Time: 0.13686
+
+Client: 28, Client Deduplicate Time: 0.13595
+
+Client: 31, Client Deduplicate Time: 0.13523
+
+Client: 34, Client Deduplicate Time: 0.13517
+
+Client: 37, Client Deduplicate Time: 0.13595
+
+Client: 40, Client Deduplicate Time: 0.13725
+
+Client: 43, Client Deduplicate Time: 0.13691
+
+Client: 46, Client Deduplicate Time: 0.13689
+
+Client: 47, Client Deduplicate Time: 0.13582
+
+
+Current Level:  3
+
+Client: 3
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 3, Client Send Time: 1.3259996194392443e-06
+
+Client: 4
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 4, Client Send Time: 3.3300239010713995e-07
+
+Client: 5
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 5, Client Send Time: 3.0100272851996124e-07
+
+Client: 9
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 9, Client Send Time: 1.0809999366756529e-06
+
+Client: 10
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 10, Client Send Time: 3.5999983083456755e-07
+
+Client: 11
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 11, Client Send Time: 2.890010364353657e-07
+
+Client: 15
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 15, Client Send Time: 1.2470009096432477e-06
+
+Client: 16
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 16, Client Send Time: 3.440000000409782e-07
+
+Client: 17
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 17, Client Send Time: 2.890010364353657e-07
+
+Client: 21
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 21, Client Send Time: 1.1090014595538378e-06
+
+Client: 22
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 22, Client Send Time: 3.759996616281569e-07
+
+Client: 23
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 23, Client Send Time: 3.3800097298808396e-07
+
+Client: 24
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 24, Client Send Time: 3.3299875212833285e-07
+
+Client: 28
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 28, Client Send Time: 1.1940028343815356e-06
+
+Client: 29
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 29, Client Send Time: 3.950008249375969e-07
+
+Client: 30
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 30, Client Send Time: 3.2900061341933906e-07
+
+Client: 34
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 34, Client Send Time: 1.2140008038841188e-06
+
+Client: 35
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 35, Client Send Time: 2.989982021972537e-07
+
+Client: 36
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 36, Client Send Time: 2.720007614698261e-07
+
+Client: 40
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 40, Client Send Time: 1.1890006135217845e-06
+
+Client: 41
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 41, Client Send Time: 3.450004442129284e-07
+
+Client: 42
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 42, Client Send Time: 3.259992809034884e-07
+
+Client: 46
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 46, Client Send Time: 1.333999534836039e-06
+
+Client: 47
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 47, Client Send Time: 3.6500205169431865e-07
+
+Client: 48
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 48, Client Send Time: 3.2800016924738884e-07
+
+Client: 49
+Send Times:  [0.0, 0.0, 0.0]
+
+Client: 49, Client Send Time: 3.360000846441835e-07
+
+Client: 0
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 0, Client Receive Time: 1.9759972929023206e-06
+
+Client: 1
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 1, Client Receive Time: 5.340007191989571e-07
+
+Client: 2
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 2, Client Receive Time: 6.090012902859598e-07
+
+Client: 6
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 6, Client Receive Time: 1.7359998309984803e-06
+
+Client: 7
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 7, Client Receive Time: 4.4099942897446454e-07
+
+Client: 8
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 8, Client Receive Time: 6.150003173388541e-07
+
+Client: 12
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 12, Client Receive Time: 1.6739977581892163e-06
+
+Client: 13
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 13, Client Receive Time: 5.38002495886758e-07
+
+Client: 14
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 14, Client Receive Time: 6.420013960450888e-07
+
+Client: 18
+Receive Times:  [0.0, 0.0, 0.0, 0.0]
+
+Client: 18, Client Receive Time: 1.6849990061018616e-06
+
+Client: 19
+Receive Times:  [0.0, 0.0, 0.0, 0.0]
+
+Client: 19, Client Receive Time: 1.0040021152235568e-06
+
+Client: 20
+Receive Times:  [0.0, 0.0, 0.0, 0.0]
+
+Client: 20, Client Receive Time: 7.029993867035955e-07
+
+Client: 25
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 25, Client Receive Time: 1.676999090705067e-06
+
+Client: 26
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 26, Client Receive Time: 7.600028766319156e-07
+
+Client: 27
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 27, Client Receive Time: 5.850015440955758e-07
+
+Client: 31
+Receive Times:  [0.0, 0.0, 1e-05]
+
+Client: 31, Client Receive Time: 1.0884999937843531e-05
+
+Client: 32
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 32, Client Receive Time: 4.940011422149837e-07
+
+Client: 33
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 33, Client Receive Time: 6.890004442539066e-07
+
+Client: 37
+Receive Times:  [0.0, 1e-05, 0.0]
+
+Client: 37, Client Receive Time: 1.0063999070553109e-05
+
+Client: 38
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 38, Client Receive Time: 8.879978850018233e-07
+
+Client: 39
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 39, Client Receive Time: 6.090012902859598e-07
+
+Client: 43
+Receive Times:  [0.0, 0.0, 0.0, 0.0]
+
+Client: 43, Client Receive Time: 2.2360000002663583e-06
+
+Client: 44
+Receive Times:  [0.0, 0.0, 0.0, 0.0]
+
+Client: 44, Client Receive Time: 5.09997335029766e-07
+
+Client: 45
+Receive Times:  [0.0, 0.0, 0.0, 0.0]
+
+Client: 45, Client Receive Time: 7.079979695845395e-07
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 1e-05
+
+Client: 0, Client Deduplicate Time: 0.19879
+
+Client: 1, Client Deduplicate Time: 0.19804
+
+Client: 2, Client Deduplicate Time: 0.1983
+
+Client: 6, Client Deduplicate Time: 0.19825
+
+Client: 7, Client Deduplicate Time: 0.19865
+
+Client: 8, Client Deduplicate Time: 0.19869
+
+Client: 12, Client Deduplicate Time: 0.19898
+
+Client: 13, Client Deduplicate Time: 0.19904
+
+Client: 14, Client Deduplicate Time: 0.19882
+
+Client: 18, Client Deduplicate Time: 0.27087
+
+Client: 19, Client Deduplicate Time: 0.26865
+
+Client: 20, Client Deduplicate Time: 0.26885
+
+Client: 25, Client Deduplicate Time: 0.20622
+
+Client: 26, Client Deduplicate Time: 0.20257
+
+Client: 27, Client Deduplicate Time: 0.20259
+
+Client: 31, Client Deduplicate Time: 0.20369
+
+Client: 32, Client Deduplicate Time: 0.20129
+
+Client: 33, Client Deduplicate Time: 0.20172
+
+Client: 37, Client Deduplicate Time: 0.20297
+
+Client: 38, Client Deduplicate Time: 0.20357
+
+Client: 39, Client Deduplicate Time: 0.20435
+
+Client: 43, Client Deduplicate Time: 0.27018
+
+Client: 44, Client Deduplicate Time: 0.26941
+
+Client: 45, Client Deduplicate Time: 0.26978
+
+
+Current Level:  2
+
+Client: 6
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 6, Client Send Time: 1.3210010365583003e-06
+
+Client: 7
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 7, Client Send Time: 4.540015652310103e-07
+
+Client: 8
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 8, Client Send Time: 3.7000063457526267e-07
+
+Client: 9
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 9, Client Send Time: 3.210006980225444e-07
+
+Client: 10
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 10, Client Send Time: 2.8800059226341546e-07
+
+Client: 11
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 11, Client Send Time: 2.799970388878137e-07
+
+Client: 18
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 18, Client Send Time: 1.1260017345193774e-06
+
+Client: 19
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 19, Client Send Time: 4.6399873099289834e-07
+
+Client: 20
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 20, Client Send Time: 2.989982021972537e-07
+
+Client: 21
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 21, Client Send Time: 4.989997250959277e-07
+
+Client: 22
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 22, Client Send Time: 2.5599729269742966e-07
+
+Client: 23
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 23, Client Send Time: 2.6999987312592566e-07
+
+Client: 24
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 24, Client Send Time: 2.989982021972537e-07
+
+Client: 31
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 31, Client Send Time: 1.3729986676480621e-06
+
+Client: 32
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 32, Client Send Time: 3.759996616281569e-07
+
+Client: 33
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 33, Client Send Time: 2.590022631920874e-07
+
+Client: 34
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 34, Client Send Time: 3.0999945010989904e-07
+
+Client: 35
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 35, Client Send Time: 2.6499765226617455e-07
+
+Client: 36
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 36, Client Send Time: 2.630004019010812e-07
+
+Client: 43
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 43, Client Send Time: 1.3800017768517137e-06
+
+Client: 44
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 44, Client Send Time: 4.3299951357766986e-07
+
+Client: 45
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 45, Client Send Time: 3.079985617659986e-07
+
+Client: 46
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 46, Client Send Time: 3.489985829219222e-07
+
+Client: 47
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 47, Client Send Time: 2.9200236895121634e-07
+
+Client: 48
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 48, Client Send Time: 2.8700014809146523e-07
+
+Client: 49
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 49, Client Send Time: 3.4099866752512753e-07
+
+Client: 0
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 0, Client Receive Time: 1.830001565394923e-06
+
+Client: 1
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 1, Client Receive Time: 5.209985829424113e-07
+
+Client: 2
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 2, Client Receive Time: 5.220026650931686e-07
+
+Client: 3
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 3, Client Receive Time: 5.280016921460629e-07
+
+Client: 4
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 4, Client Receive Time: 7.349990482907742e-07
+
+Client: 5
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 5, Client Receive Time: 5.660003807861358e-07
+
+Client: 12
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 12, Client Receive Time: 2.097000106004998e-06
+
+Client: 13
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 13, Client Receive Time: 6.560003384947777e-07
+
+Client: 14
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 14, Client Receive Time: 4.939975042361766e-07
+
+Client: 15
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 15, Client Receive Time: 4.869980330113322e-07
+
+Client: 16
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 16, Client Receive Time: 3.9099904824979603e-07
+
+Client: 17
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 17, Client Receive Time: 8.280003385152668e-07
+
+Client: 25
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 25, Client Receive Time: 1.997002982534468e-06
+
+Client: 26
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 26, Client Receive Time: 5.180008884053677e-07
+
+Client: 27
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 27, Client Receive Time: 1.0420008038636297e-06
+
+Client: 28
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 28, Client Receive Time: 7.310009095817804e-07
+
+Client: 29
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 29, Client Receive Time: 6.020018190611154e-07
+
+Client: 30
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 30, Client Receive Time: 6.000009307172149e-07
+
+Client: 37
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 37, Client Receive Time: 2.107000909745693e-06
+
+Client: 38
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 38, Client Receive Time: 5.43001078767702e-07
+
+Client: 39
+Receive Times:  [1e-05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 39, Client Receive Time: 9.825998859014362e-06
+
+Client: 40
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 40, Client Receive Time: 4.43000317318365e-07
+
+Client: 41
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 41, Client Receive Time: 4.660032573156059e-07
+
+Client: 42
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 42, Client Receive Time: 4.899993655271828e-07
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 1e-05
+
+Client: 0, Client Deduplicate Time: 0.3957
+
+Client: 1, Client Deduplicate Time: 0.39686
+
+Client: 2, Client Deduplicate Time: 0.39444
+
+Client: 3, Client Deduplicate Time: 0.39669
+
+Client: 4, Client Deduplicate Time: 0.39583
+
+Client: 5, Client Deduplicate Time: 0.39454
+
+Client: 12, Client Deduplicate Time: 0.46715
+
+Client: 13, Client Deduplicate Time: 0.46791
+
+Client: 14, Client Deduplicate Time: 0.46852
+
+Client: 15, Client Deduplicate Time: 0.46875
+
+Client: 16, Client Deduplicate Time: 0.46686
+
+Client: 17, Client Deduplicate Time: 0.46723
+
+Client: 25, Client Deduplicate Time: 0.40063
+
+Client: 26, Client Deduplicate Time: 0.4028
+
+Client: 27, Client Deduplicate Time: 0.40784
+
+Client: 28, Client Deduplicate Time: 0.40022
+
+Client: 29, Client Deduplicate Time: 0.40094
+
+Client: 30, Client Deduplicate Time: 0.39878
+
+Client: 37, Client Deduplicate Time: 0.47105
+
+Client: 38, Client Deduplicate Time: 0.47422
+
+Client: 39, Client Deduplicate Time: 0.47947
+
+Client: 40, Client Deduplicate Time: 0.47717
+
+Client: 41, Client Deduplicate Time: 0.46945
+
+Client: 42, Client Deduplicate Time: 0.47346
+
+
+Current Level:  1
+
+Client: 12
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 12, Client Send Time: 2.229997335234657e-06
+
+Client: 13
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 13, Client Send Time: 4.2900137486867607e-07
+
+Client: 14
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 14, Client Send Time: 3.569984983187169e-07
+
+Client: 15
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 15, Client Send Time: 3.169989213347435e-07
+
+Client: 16
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 16, Client Send Time: 2.6999987312592566e-07
+
+Client: 17
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 17, Client Send Time: 2.950000634882599e-07
+
+Client: 18
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 18, Client Send Time: 3.0099909054115415e-07
+
+Client: 19
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 19, Client Send Time: 2.630004019010812e-07
+
+Client: 20
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 20, Client Send Time: 3.0099909054115415e-07
+
+Client: 21
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 21, Client Send Time: 2.899978426285088e-07
+
+Client: 22
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 22, Client Send Time: 2.6500129024498165e-07
+
+Client: 23
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 23, Client Send Time: 3.0999945010989904e-07
+
+Client: 24
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 24, Client Send Time: 2.7399801183491945e-07
+
+Client: 37
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 37, Client Send Time: 1.610002072993666e-06
+
+Client: 38
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 38, Client Send Time: 4.390021786093712e-07
+
+Client: 39
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 39, Client Send Time: 3.7799691199325025e-07
+
+Client: 40
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 40, Client Send Time: 4.079993232153356e-07
+
+Client: 41
+Send Times:  [0.0, 0.0, 1e-05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 41, Client Send Time: 8.619001164333895e-06
+
+Client: 42
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 42, Client Send Time: 3.0600131140090525e-07
+
+Client: 43
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 43, Client Send Time: 3.130007826257497e-07
+
+Client: 44
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 44, Client Send Time: 2.6899942895397544e-07
+
+Client: 45
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 45, Client Send Time: 2.6999987312592566e-07
+
+Client: 46
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 46, Client Send Time: 2.6999987312592566e-07
+
+Client: 47
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 47, Client Send Time: 2.291999408043921e-06
+
+Client: 48
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 48, Client Send Time: 2.8799695428460836e-07
+
+Client: 49
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 49, Client Send Time: 2.7900023269467056e-07
+
+Client: 0
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2e-05, 0.0, 0.0]
+
+Client: 0, Client Receive Time: 1.5665002138121054e-05
+
+Client: 1
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 1, Client Receive Time: 9.6799703896977e-07
+
+Client: 2
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 2, Client Receive Time: 1.9090002751909196e-06
+
+Client: 3
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 3, Client Receive Time: 5.139991117175668e-07
+
+Client: 4
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 4, Client Receive Time: 8.460010576527566e-07
+
+Client: 5
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 5, Client Receive Time: 5.740002961829305e-07
+
+Client: 6
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 6, Client Receive Time: 9.639989002607763e-07
+
+Client: 7
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 7, Client Receive Time: 5.250003596302122e-07
+
+Client: 8
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 8, Client Receive Time: 4.4599801185540855e-07
+
+Client: 9
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 9, Client Receive Time: 4.210014594718814e-07
+
+Client: 10
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 10, Client Receive Time: 4.199973773211241e-07
+
+Client: 11
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 11, Client Receive Time: 6.330010364763439e-07
+
+Client: 25
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 25, Client Receive Time: 2.5230001483578235e-06
+
+Client: 26
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 26, Client Receive Time: 6.810005288571119e-07
+
+Client: 27
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 27, Client Receive Time: 7.589987944811583e-07
+
+Client: 28
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 28, Client Receive Time: 7.810012903064489e-07
+
+Client: 29
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 29, Client Receive Time: 1.0440016922075301e-06
+
+Client: 30
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 30, Client Receive Time: 7.590024324599653e-07
+
+Client: 31
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 31, Client Receive Time: 6.260015652514994e-07
+
+Client: 32
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 32, Client Receive Time: 1.2399978004395962e-06
+
+Client: 33
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 33, Client Receive Time: 9.00003215065226e-07
+
+Client: 34
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 34, Client Receive Time: 3.659988578874618e-07
+
+Client: 35
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 35, Client Receive Time: 4.930006980430335e-07
+
+Client: 36
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 36, Client Receive Time: 9.889990906231105e-07
+
+Send Time of Group 1: 1e-05
+
+Receive Time of Group 0: 2e-05
+
+Client: 0, Client Deduplicate Time: 0.86024
+
+Client: 1, Client Deduplicate Time: 0.86476
+
+Client: 2, Client Deduplicate Time: 0.86211
+
+Client: 3, Client Deduplicate Time: 0.86124
+
+Client: 4, Client Deduplicate Time: 0.86347
+
+Client: 5, Client Deduplicate Time: 0.86164
+
+Client: 6, Client Deduplicate Time: 0.86201
+
+Client: 7, Client Deduplicate Time: 0.86139
+
+Client: 8, Client Deduplicate Time: 0.86074
+
+Client: 9, Client Deduplicate Time: 0.86644
+
+Client: 10, Client Deduplicate Time: 0.86064
+
+Client: 11, Client Deduplicate Time: 0.86062
+
+Client: 25, Client Deduplicate Time: 0.86851
+
+Client: 26, Client Deduplicate Time: 0.87097
+
+Client: 27, Client Deduplicate Time: 0.87003
+
+Client: 28, Client Deduplicate Time: 0.87137
+
+Client: 29, Client Deduplicate Time: 0.87778
+
+Client: 30, Client Deduplicate Time: 0.86779
+
+Client: 31, Client Deduplicate Time: 0.86974
+
+Client: 32, Client Deduplicate Time: 0.86836
+
+Client: 33, Client Deduplicate Time: 0.87041
+
+Client: 34, Client Deduplicate Time: 0.86817
+
+Client: 35, Client Deduplicate Time: 0.86865
+
+Client: 36, Client Deduplicate Time: 0.87064
+
+
+Current Level:  0
+
+Client: 25
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 25, Client Send Time: 1.1890006135217845e-06
+
+Client: 26
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 26, Client Send Time: 4.889989213552326e-07
+
+Client: 27
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 27, Client Send Time: 3.6600249586626887e-07
+
+Client: 28
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 28, Client Send Time: 2.1939995349384844e-06
+
+Client: 29
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 29, Client Send Time: 3.309978637844324e-07
+
+Client: 30
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 30, Client Send Time: 2.7400164981372654e-07
+
+Client: 31
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 31, Client Send Time: 3.320019459351897e-07
+
+Client: 32
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 32, Client Send Time: 3.2000025385059416e-07
+
+Client: 33
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 33, Client Send Time: 2.0470033632591367e-06
+
+Client: 34
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 34, Client Send Time: 3.3199830795638263e-07
+
+Client: 35
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 35, Client Send Time: 2.1460000425577164e-06
+
+Client: 36
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 36, Client Send Time: 3.2399839255958796e-07
+
+Client: 37
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 37, Client Send Time: 2.800006768666208e-07
+
+Client: 38
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 38, Client Send Time: 2.5500048650428653e-07
+
+Client: 39
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 39, Client Send Time: 2.540000423323363e-07
+
+Client: 40
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 40, Client Send Time: 2.800006768666208e-07
+
+Client: 41
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 41, Client Send Time: 2.5600093067623675e-07
+
+Client: 42
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 42, Client Send Time: 2.61999957729131e-07
+
+Client: 43
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 43, Client Send Time: 2.680026227608323e-07
+
+Client: 44
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 44, Client Send Time: 3.1659983505960554e-06
+
+Client: 45
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 45, Client Send Time: 2.6899942895397544e-07
+
+Client: 46
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 46, Client Send Time: 1.99299756786786e-06
+
+Client: 47
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 47, Client Send Time: 2.820015652105212e-07
+
+Client: 48
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 48, Client Send Time: 1.6229969332925975e-06
+
+Client: 49
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 49, Client Send Time: 3.3199830795638263e-07
+
+Client: 0
+Receive Times:  [0.0, 1e-05, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 0, Client Receive Time: 1.0940002539427951e-05
+
+Client: 1
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 1, Client Receive Time: 7.250018825288862e-07
+
+Client: 2
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 2, Client Receive Time: 7.069975254125893e-07
+
+Client: 3
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 3, Client Receive Time: 4.530011210590601e-07
+
+Client: 4
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 4, Client Receive Time: 4.579997039400041e-07
+
+Client: 5
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 5, Client Receive Time: 2.0500010577961802e-06
+
+Client: 6
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 6, Client Receive Time: 7.659982657060027e-07
+
+Client: 7
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 7, Client Receive Time: 5.530018825083971e-07
+
+Client: 8
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 8, Client Receive Time: 4.4999978854320943e-07
+
+Client: 9
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 9, Client Receive Time: 5.869987944606692e-07
+
+Client: 10
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 10, Client Receive Time: 4.850007826462388e-07
+
+Client: 11
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 11, Client Receive Time: 4.899993655271828e-07
+
+Client: 12
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 12, Client Receive Time: 5.230031092651188e-07
+
+Client: 13
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 13, Client Receive Time: 6.650006980635226e-07
+
+Client: 14
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 14, Client Receive Time: 3.2509997254237533e-06
+
+Client: 15
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 15, Client Receive Time: 4.780013114213943e-07
+
+Client: 16
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 16, Client Receive Time: 7.660019036848098e-07
+
+Client: 17
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 17, Client Receive Time: 2.134001988451928e-06
+
+Client: 18
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 18, Client Receive Time: 6.039990694262087e-07
+
+Client: 19
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 19, Client Receive Time: 4.3800173443742096e-07
+
+Client: 20
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 20, Client Receive Time: 6.580012268386781e-07
+
+Client: 21
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 21, Client Receive Time: 7.889975677244365e-07
+
+Client: 22
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 22, Client Receive Time: 9.190007403958589e-07
+
+Client: 23
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 23, Client Receive Time: 2.1999985619913787e-06
+
+Client: 24
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 24, Client Receive Time: 5.350011633709073e-07
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 1e-05
+
+Client: 0, Client Deduplicate Time: 1.66944
+
+Client: 1, Client Deduplicate Time: 1.67198
+
+Client: 2, Client Deduplicate Time: 1.6815
+
+Client: 3, Client Deduplicate Time: 1.66872
+
+Client: 4, Client Deduplicate Time: 1.67208
+
+Client: 5, Client Deduplicate Time: 1.67112
+
+Client: 6, Client Deduplicate Time: 1.6671
+
+Client: 7, Client Deduplicate Time: 1.66992
+
+Client: 8, Client Deduplicate Time: 1.68867
+
+Client: 9, Client Deduplicate Time: 1.67317
+
+Client: 10, Client Deduplicate Time: 1.67078
+
+Client: 11, Client Deduplicate Time: 1.66831
+
+Client: 12, Client Deduplicate Time: 1.66933
+
+Client: 13, Client Deduplicate Time: 1.66856
+
+Client: 14, Client Deduplicate Time: 1.68156
+
+Client: 15, Client Deduplicate Time: 1.66762
+
+Client: 16, Client Deduplicate Time: 1.67696
+
+Client: 17, Client Deduplicate Time: 1.69015
+
+Client: 18, Client Deduplicate Time: 1.68905
+
+Client: 19, Client Deduplicate Time: 1.69428
+
+Client: 20, Client Deduplicate Time: 1.67053
+
+Client: 21, Client Deduplicate Time: 1.67296
+
+Client: 22, Client Deduplicate Time: 1.67282
+
+Client: 23, Client Deduplicate Time: 1.67527
+
+Client: 24, Client Deduplicate Time: 1.67441
+
+
+Total time for entire protocol: 7643.35272
+
+Wall clock time
+Start time:  2024-06-24 11:58:17.982852
+End time:  2024-06-24 14:17:14.912014
+
+Total data with duplicates:  26214800
+Total data without duplicates:  17039550
