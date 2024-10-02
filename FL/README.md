@@ -9,8 +9,8 @@ This folder contains code to analyze the effect of duplicated data in federated 
 1. Create the environment using anaconda: `conda env create -f environment.yml`
 2. Activate the environment: `conda activate fed_dedup`
 3. Install the EP-MPD library: `cd ../EP_MPD && pip install .`
+4. Download the datasets from [here](https://drive.google.com/drive/folders/1SYycnxYaLr4iPeMGxGhtxX1Zs8P_UKLI?usp=drive_link) and place them in the `datasets` folder.
 
 ## Usage
-
 
 
