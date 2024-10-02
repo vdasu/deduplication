@@ -80,11 +80,15 @@ for x, y in zip(dedup_data_all, original_data_all):
 
 ## Reproduce the paper's results
 
+### Small Scale Experiments
+
+### Paper's Experiments
+
 To reproduce the paper's benchmark results, `main_int.py` can be used. The script takes the following command line arguments:
 
 ```
-usage: main_int.py [-h] [--psi-type PSI_TYPE] [--num-clients NUM_CLIENTS]
-                        [--num-ele NUM_ELE] [--seed SEED] [--dup-per DUP_PER]
+usage: main_int.py [-h] [--psi-type PSI_TYPE] [--num-clients NUM_CLIENTS] [--num-ele NUM_ELE]
+                   [--seed SEED] [--dup-per DUP_PER] [--debug DEBUG]
 
 Runs the EP-MPD deduplication protocol
 
@@ -92,10 +96,11 @@ options:
   -h, --help            show this help message and exit
   --psi-type PSI_TYPE   EG-PSI Type (1 or 2)
   --num-clients NUM_CLIENTS
-                        Number of clients
-  --num-ele NUM_ELE     Number of elements in each client's dataset
-  --seed SEED           Random seed for dataset creation
+                        Number of clients (Integer)
+  --num-ele NUM_ELE     Number of elements in each client's dataset (Integer)
+  --seed SEED           Random seed for dataset creation (Integer)
   --dup-per DUP_PER     Percentage of duplicates (0.0, 1.0)
+  --debug DEBUG         Print detailed execution of protocol (True or False)
 ```
 
 For example, to get the timing results for 40 clients with 2^19 datasize and 30% duplicates you need to run:
@@ -108,7 +113,7 @@ Since we simulate all clients on a single machine, depending on the resources av
 
 The `main_str.py` script contains a simple example for string data with hardcoded lists for 8 clients. Simply run `python main_str.py`.
 
-### Generate Figures from Log Files
+### Generate Paper's Figures from Log Files
 
 This repository provides all the original log files and python scripts to generate the plots in the paper. The `logs` folder contains the logs for all the EP-MPD benchmarking experiments. The python scripts in the `logs` folder can be used to generate the plots in Figure 6,7, and 8 in the paper. You would need a local TeX installation and `matplotlib` (`pip install matplotlib`). The `logs` folder also contains the specifications of the machine used to run the experiments in the paper in `platform_spec.txt`. 
 

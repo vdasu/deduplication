@@ -1,0 +1,281 @@
+EG PSI Type:  EgPsiType.TYPE2
+
+Setup time: 49.40782
+
+Client: 0, Client Setup Time: 3.686184592312202
+
+Client: 1, Client Setup Time: 3.726430597133003
+
+Client: 2, Client Setup Time: 3.633345945039764
+
+Client: 3, Client Setup Time: 3.645909507293254
+
+Client: 4, Client Setup Time: 3.6346721902955323
+
+Client: 5, Client Setup Time: 3.632847251719795
+
+Client: 6, Client Setup Time: 3.6637371327960864
+
+Client: 7, Client Setup Time: 3.631517108529806
+
+Client: 8, Client Setup Time: 3.6387734395684674
+
+Client: 9, Client Setup Time: 3.672550592222251
+
+Client: 0, TP Setup Time: 1.294212157605216
+
+Client: 1, TP Setup Time: 1.3029021528782323
+
+Client: 2, TP Setup Time: 1.2793312629219145
+
+Client: 3, TP Setup Time: 1.2757702847011387
+
+Client: 4, TP Setup Time: 1.2782316016964614
+
+Client: 5, TP Setup Time: 1.280535539262928
+
+Client: 6, TP Setup Time: 1.2806731591699645
+
+Client: 7, TP Setup Time: 1.279826516401954
+
+Client: 8, TP Setup Time: 1.2787024354329333
+
+Client: 9, TP Setup Time: 1.2916638668393716
+
+
+Current Level:  3
+
+Client: 4
+Send Times:  [0.0]
+
+Client: 4, Client Send Time: 9.170034900307655e-07
+
+Client: 9
+Send Times:  [0.0]
+
+Client: 9, Client Send Time: 2.9208604246377945e-07
+
+Client: 3
+Receive Times:  [1e-05]
+
+Client: 3, Client Receive Time: 9.500072337687016e-06
+
+Client: 8
+Receive Times:  [0.0]
+
+Client: 8, Client Receive Time: 3.33995558321476e-07
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 1e-05
+
+Client: 3, Client Deduplicate Time: 0.00196
+
+Client: 8, Client Deduplicate Time: 0.00214
+
+
+Current Level:  2
+
+Client: 1
+Send Times:  [0.0]
+
+Client: 1, Client Send Time: 7.50063918530941e-07
+
+Client: 3
+Send Times:  [0.0]
+
+Client: 3, Client Send Time: 2.919696271419525e-07
+
+Client: 4
+Send Times:  [0.0]
+
+Client: 4, Client Send Time: 2.0803418010473251e-07
+
+Client: 6
+Send Times:  [0.0]
+
+Client: 6, Client Send Time: 7.919734343886375e-07
+
+Client: 8
+Send Times:  [0.0]
+
+Client: 8, Client Send Time: 2.4994369596242905e-07
+
+Client: 9
+Send Times:  [0.0]
+
+Client: 9, Client Send Time: 2.0803418010473251e-07
+
+Client: 0
+Receive Times:  [0.0]
+
+Client: 0, Client Receive Time: 1.2080417945981026e-06
+
+Client: 2
+Receive Times:  [0.0, 0.0]
+
+Client: 2, Client Receive Time: 3.7497375160455704e-07
+
+Client: 5
+Receive Times:  [0.0]
+
+Client: 5, Client Receive Time: 1.915963366627693e-06
+
+Client: 7
+Receive Times:  [0.0, 0.0]
+
+Client: 7, Client Receive Time: 2.919696271419525e-07
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 0.0
+
+Client: 0, Client Deduplicate Time: 0.00232
+
+Client: 2, Client Deduplicate Time: 0.00395
+
+Client: 5, Client Deduplicate Time: 0.00203
+
+Client: 7, Client Deduplicate Time: 0.00473
+
+
+Current Level:  1
+
+Client: 2
+Send Times:  [0.0, 0.0]
+
+Client: 2, Client Send Time: 7.919734343886375e-07
+
+Client: 3
+Send Times:  [0.0, 0.0]
+
+Client: 3, Client Send Time: 1.6600824892520905e-07
+
+Client: 4
+Send Times:  [0.0, 0.0]
+
+Client: 4, Client Send Time: 1.6705598682165146e-07
+
+Client: 7
+Send Times:  [0.0, 0.0]
+
+Client: 7, Client Send Time: 6.25033862888813e-07
+
+Client: 8
+Send Times:  [0.0, 0.0]
+
+Client: 8, Client Send Time: 2.0791776478290558e-07
+
+Client: 9
+Send Times:  [0.0, 0.0]
+
+Client: 9, Client Send Time: 1.25030055642128e-07
+
+Client: 0
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 0, Client Receive Time: 1.125037670135498e-06
+
+Client: 1
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 1, Client Receive Time: 2.0803418010473251e-07
+
+Client: 5
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 5, Client Receive Time: 1.2080417945981026e-06
+
+Client: 6
+Receive Times:  [0.0, 0.0, 0.0]
+
+Client: 6, Client Receive Time: 1.6693957149982452e-07
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 0.0
+
+Client: 0, Client Deduplicate Time: 0.00598
+
+Client: 1, Client Deduplicate Time: 0.00572
+
+Client: 5, Client Deduplicate Time: 0.00614
+
+Client: 6, Client Deduplicate Time: 0.00609
+
+
+Current Level:  0
+
+Client: 5
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 5, Client Send Time: 7.079215720295906e-07
+
+Client: 6
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 6, Client Send Time: 2.0803418010473251e-07
+
+Client: 7
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 7, Client Send Time: 1.6693957149982452e-07
+
+Client: 8
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 8, Client Send Time: 1.6705598682165146e-07
+
+Client: 9
+Send Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 9, Client Send Time: 1.6705598682165146e-07
+
+Client: 0
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 0, Client Receive Time: 1.249951310455799e-06
+
+Client: 1
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 1, Client Receive Time: 4.169996827840805e-07
+
+Client: 2
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 2, Client Receive Time: 2.919696271419525e-07
+
+Client: 3
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 3, Client Receive Time: 1.6705598682165146e-07
+
+Client: 4
+Receive Times:  [0.0, 0.0, 0.0, 0.0, 0.0]
+
+Client: 4, Client Receive Time: 3.3294782042503357e-07
+
+Send Time of Group 1: 0.0
+
+Receive Time of Group 0: 0.0
+
+Client: 0, Client Deduplicate Time: 0.00982
+
+Client: 1, Client Deduplicate Time: 0.00928
+
+Client: 2, Client Deduplicate Time: 0.00945
+
+Client: 3, Client Deduplicate Time: 0.0096
+
+Client: 4, Client Deduplicate Time: 0.01024
+
+
+Total time for entire protocol: 49.43108
+
+Wall clock time
+Start time:  2024-10-02 16:54:43.881795
+End time:  2024-10-02 16:55:38.222457
+
+Total data with duplicates:  327730
+Total data without duplicates:  245785

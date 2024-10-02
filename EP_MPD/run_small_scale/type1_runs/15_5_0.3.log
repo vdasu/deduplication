@@ -1,0 +1,108 @@
+EG PSI Type:  EgPsiType.TYPE1
+
+Current Level:  2
+
+Client Encryptions and TP Receive
+
+
+Group 0 clients
+
+Client: 3, Client Encrypt Time: 0.09023
+Client: 3, TP Receive Time: 0.00463
+
+Group 1 clients
+
+Client: 4, Client Encrypt Time: 0.09037
+Client: 4, TP Receive Time: 0.00445
+
+Client Deduplicate and TP Send
+
+
+Client: 3, TP Send Time: 0.00181
+Client: 3, Client Deduplicate Time: 0.0006
+
+Level: 2, Time for entire level: 0.09727
+
+Current Level:  1
+
+Client Encryptions and TP Receive
+
+
+Group 0 clients
+
+Client: 0, Client Encrypt Time: 0.09566
+Client: 0, TP Receive Time: 0.00476
+
+Group 1 clients
+
+Client: 1, Client Encrypt Time: 0.0972
+Client: 1, TP Receive Time: 0.00458
+
+Group 0 clients
+
+Client: 2, Client Encrypt Time: 0.18136
+Client: 2, TP Receive Time: 0.01057
+
+Group 1 clients
+
+Client: 3, Client Encrypt Time: 0.08341
+Client: 3, TP Receive Time: 0.00409
+
+Client: 4, Client Encrypt Time: 0.08994
+Client: 4, TP Receive Time: 0.00483
+
+Client Deduplicate and TP Send
+
+
+Client: 0, TP Send Time: 0.00194
+Client: 0, Client Deduplicate Time: 0.00063
+
+Client: 2, TP Send Time: 0.00504
+Client: 2, Client Deduplicate Time: 0.0015
+
+Level: 1, Time for entire level: 0.20042
+
+Current Level:  0
+
+Client Encryptions and TP Receive
+
+
+Group 0 clients
+
+Client: 0, Client Encrypt Time: 0.25351
+Client: 0, TP Receive Time: 0.01646
+
+Client: 1, Client Encrypt Time: 0.27967
+Client: 1, TP Receive Time: 0.02211
+
+Group 1 clients
+
+Client: 2, Client Encrypt Time: 0.15397
+Client: 2, TP Receive Time: 0.00779
+
+Client: 3, Client Encrypt Time: 0.16643
+Client: 3, TP Receive Time: 0.01038
+
+Client: 4, Client Encrypt Time: 0.18252
+Client: 4, TP Receive Time: 0.01255
+
+Client Deduplicate and TP Send
+
+
+Client: 0, TP Send Time: 0.00832
+Client: 0, Client Deduplicate Time: 0.00215
+
+Client: 1, TP Send Time: 0.01014
+Client: 1, Client Deduplicate Time: 0.00247
+
+Level: 0, Time for entire level: 0.3227
+
+
+Total time for entire protocol: 0.62039
+
+Wall clock time
+Start time:  2024-10-02 16:43:44.392487
+End time:  2024-10-02 16:43:46.468801
+
+Total data with duplicates:  163845
+Total data without duplicates:  139265

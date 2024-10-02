@@ -1,0 +1,234 @@
+EG PSI Type:  EgPsiType.TYPE1
+
+Current Level:  3
+
+Client Encryptions and TP Receive
+
+
+Group 0 clients
+
+Client: 3, Client Encrypt Time: 0.08711
+Client: 3, TP Receive Time: 0.00458
+
+Group 1 clients
+
+Client: 4, Client Encrypt Time: 0.08746
+Client: 4, TP Receive Time: 0.0042
+
+Group 0 clients
+
+Client: 8, Client Encrypt Time: 0.08717
+Client: 8, TP Receive Time: 0.00465
+
+Group 1 clients
+
+Client: 9, Client Encrypt Time: 0.08917
+Client: 9, TP Receive Time: 0.00454
+
+Client Deduplicate and TP Send
+
+
+Client: 3, TP Send Time: 0.00173
+Client: 3, Client Deduplicate Time: 0.00049
+
+Client: 8, TP Send Time: 0.00179
+Client: 8, Client Deduplicate Time: 0.0005
+
+Level: 3, Time for entire level: 0.09773
+
+Current Level:  2
+
+Client Encryptions and TP Receive
+
+
+Group 0 clients
+
+Client: 0, Client Encrypt Time: 0.09277
+Client: 0, TP Receive Time: 0.00455
+
+Group 1 clients
+
+Client: 1, Client Encrypt Time: 0.0944
+Client: 1, TP Receive Time: 0.00431
+
+Group 0 clients
+
+Client: 2, Client Encrypt Time: 0.17501
+Client: 2, TP Receive Time: 0.01004
+
+Group 1 clients
+
+Client: 3, Client Encrypt Time: 0.08395
+Client: 3, TP Receive Time: 0.00407
+
+Client: 4, Client Encrypt Time: 0.08721
+Client: 4, TP Receive Time: 0.00459
+
+Group 0 clients
+
+Client: 5, Client Encrypt Time: 0.08786
+Client: 5, TP Receive Time: 0.00482
+
+Group 1 clients
+
+Client: 6, Client Encrypt Time: 0.08772
+Client: 6, TP Receive Time: 0.00432
+
+Group 0 clients
+
+Client: 7, Client Encrypt Time: 0.17499
+Client: 7, TP Receive Time: 0.01035
+
+Group 1 clients
+
+Client: 8, Client Encrypt Time: 0.08379
+Client: 8, TP Receive Time: 0.00412
+
+Client: 9, Client Encrypt Time: 0.08792
+Client: 9, TP Receive Time: 0.00467
+
+Client Deduplicate and TP Send
+
+
+Client: 0, TP Send Time: 0.00173
+Client: 0, Client Deduplicate Time: 0.0005
+
+Client: 2, TP Send Time: 0.00418
+Client: 2, Client Deduplicate Time: 0.00109
+
+Client: 5, TP Send Time: 0.00178
+Client: 5, Client Deduplicate Time: 0.00052
+
+Client: 7, TP Send Time: 0.00436
+Client: 7, Client Deduplicate Time: 0.00114
+
+Level: 2, Time for entire level: 0.19853
+
+Current Level:  1
+
+Client Encryptions and TP Receive
+
+
+Group 0 clients
+
+Client: 0, Client Encrypt Time: 0.25159
+Client: 0, TP Receive Time: 0.01656
+
+Client: 1, Client Encrypt Time: 0.26764
+Client: 1, TP Receive Time: 0.02187
+
+Group 1 clients
+
+Client: 2, Client Encrypt Time: 0.16515
+Client: 2, TP Receive Time: 0.00836
+
+Client: 3, Client Encrypt Time: 0.16987
+Client: 3, TP Receive Time: 0.00994
+
+Client: 4, Client Encrypt Time: 0.17534
+Client: 4, TP Receive Time: 0.0122
+
+Group 0 clients
+
+Client: 5, Client Encrypt Time: 0.25316
+Client: 5, TP Receive Time: 0.01665
+
+Client: 6, Client Encrypt Time: 0.26115
+Client: 6, TP Receive Time: 0.02102
+
+Group 1 clients
+
+Client: 7, Client Encrypt Time: 0.16163
+Client: 7, TP Receive Time: 0.00849
+
+Client: 8, Client Encrypt Time: 0.16764
+Client: 8, TP Receive Time: 0.00999
+
+Client: 9, Client Encrypt Time: 0.17435
+Client: 9, TP Receive Time: 0.01193
+
+Client Deduplicate and TP Send
+
+
+Client: 0, TP Send Time: 0.00896
+Client: 0, Client Deduplicate Time: 0.00185
+
+Client: 1, TP Send Time: 0.01005
+Client: 1, Client Deduplicate Time: 0.0021
+
+Client: 5, TP Send Time: 0.00891
+Client: 5, Client Deduplicate Time: 0.00203
+
+Client: 6, TP Send Time: 0.01002
+Client: 6, Client Deduplicate Time: 0.00208
+
+Level: 1, Time for entire level: 0.32953
+
+Current Level:  0
+
+Client Encryptions and TP Receive
+
+
+Group 0 clients
+
+Client: 0, Client Encrypt Time: 0.39473
+Client: 0, TP Receive Time: 0.04016
+
+Client: 1, Client Encrypt Time: 0.40942
+Client: 1, TP Receive Time: 0.03704
+
+Client: 2, Client Encrypt Time: 0.43145
+Client: 2, TP Receive Time: 0.03812
+
+Client: 3, Client Encrypt Time: 0.43034
+Client: 3, TP Receive Time: 0.04036
+
+Client: 4, Client Encrypt Time: 0.44548
+Client: 4, TP Receive Time: 0.07868
+
+Group 1 clients
+
+Client: 5, Client Encrypt Time: 0.37846
+Client: 5, TP Receive Time: 0.02143
+
+Client: 6, Client Encrypt Time: 0.39556
+Client: 6, TP Receive Time: 0.02648
+
+Client: 7, Client Encrypt Time: 0.40796
+Client: 7, TP Receive Time: 0.03055
+
+Client: 8, Client Encrypt Time: 0.42152
+Client: 8, TP Receive Time: 0.03327
+
+Client: 9, Client Encrypt Time: 0.50211
+Client: 9, TP Receive Time: 0.07857
+
+Client Deduplicate and TP Send
+
+
+Client: 0, TP Send Time: 0.03098
+Client: 0, Client Deduplicate Time: 0.00389
+
+Client: 1, TP Send Time: 0.03036
+Client: 1, Client Deduplicate Time: 0.00388
+
+Client: 2, TP Send Time: 0.02718
+Client: 2, Client Deduplicate Time: 0.0039
+
+Client: 3, TP Send Time: 0.02646
+Client: 3, Client Deduplicate Time: 0.00391
+
+Client: 4, TP Send Time: 0.03352
+Client: 4, Client Deduplicate Time: 0.00411
+
+Level: 0, Time for entire level: 0.73329
+
+
+Total time for entire protocol: 1.35909
+
+Wall clock time
+Start time:  2024-10-02 16:43:46.796621
+End time:  2024-10-02 16:43:55.668728
+
+Total data with duplicates:  327740
+Total data without duplicates:  278555
