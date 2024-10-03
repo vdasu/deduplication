@@ -273,7 +273,3 @@ def compute_test_perplexity(model, test_data_loader):
     perplexity = torch.exp(torch.tensor(avg_loss))
 
     return perplexity.item()
-
-if __name__ == "__main__":
-    list = poetry_to_list()
-    print(list[0])
