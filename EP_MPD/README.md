@@ -92,7 +92,7 @@ The scripts and folders under `run_paper` are:
 
 ## Small Scale Experiments
 
-THe `run_small_scale` folder provides scripts to run experiments on a smaller scale on commodity hardware. The folder contains the same files as the `run_paper` folder but with smaller parameters. We test with client count in [5,10,15,20,25] and dataset size in [2^5, 2^7, 2^10, 2^13, 2^15]. These experiment run in under 15 minutes on an M1 Pro Macbook Pro. The `type1_runs` and `type2_runs` folders contain the logs for the small scale experiments. These will be overwritten after running `run.sh`. Similar to before, use the `plot*.py` scripts to generate the corresponding plots. 
+THe `run_small_scale` folder provides scripts to run experiments on a smaller scale on commodity hardware. The folder contains the same files as the `run_paper` folder but with smaller parameters. We test with client count in [5,10,15,20,25] and dataset size in [2^5, 2^7, 2^10, 2^13, 2^15]. These experiments run in under 15 minutes on an M1 Pro Macbook Pro. The `type1_runs` and `type2_runs` folders contain the logs for the small scale experiments. These will be overwritten after running `run.sh`. Similar to before, use the `plot*.py` scripts to generate the corresponding plots. 
 
 ## Custom Parameters
 
@@ -106,13 +106,13 @@ Runs the EP-MPD deduplication protocol
 
 options:
   -h, --help            show this help message and exit
-  --psi-type PSI_TYPE   EG-PSI Type (1 or 2)
+  --psi-type PSI_TYPE   EG-PSI Type (1 or 2). Default is 1.
   --num-clients NUM_CLIENTS
-                        Number of clients (Integer)
-  --num-ele NUM_ELE     Number of elements in each client's dataset (Integer)
-  --seed SEED           Random seed for dataset creation (Integer)
-  --dup-per DUP_PER     Percentage of duplicates (0.0, 1.0)
-  --debug DEBUG         Print detailed execution of protocol (True or False)
+                        Number of clients (Integer). Default is 10.
+  --num-ele NUM_ELE     Number of elements in each client's dataset (Integer). Default is 10.
+  --seed SEED           Random seed for dataset creation (Integer). Default is 42.
+  --dup-per DUP_PER     Percentage of duplicates (Between 0.0 and 1.0). Default is 0.3.
+  --debug DEBUG         Print detailed execution of protocol (True or False). Default is False.
 ```
 
 For example, to get the timing results for 40 clients with 2^19 datasize and 30% duplicates you need to run:
@@ -121,7 +121,7 @@ For example, to get the timing results for 40 clients with 2^19 datasize and 30%
 python main_int.py --psi-type 1 --num-clients 40 --num-ele 524288 --dup-per 0.3
 ```
 
-Since we simulate all clients on a single machine, depending on the resources available, you might run into out of memory issues. We recommend starting with 10 clients and gradually increasing the number of clients.
+Since we simulate all clients on a single machine, depending on the resources available, you might run into out of memory issues. We recommend starting with 10 clients and 2^10 elements before gradually increasing the number of clients and dataset size.
 
 ## String Data
 

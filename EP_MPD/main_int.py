@@ -3,12 +3,12 @@ import random
 import argparse
 
 parser = argparse.ArgumentParser(description="Runs the EP-MPD deduplication protocol")
-parser.add_argument('--psi-type', type=int, help="EG-PSI Type (1 or 2)", default=1)
-parser.add_argument('--num-clients', type=int, help="Number of clients (Integer)", default=10)
-parser.add_argument('--num-ele', type=int, help="Number of elements in each client's dataset (Integer)", default=10)
-parser.add_argument('--seed', type=int, help="Random seed for dataset creation (Integer)", default=42)
-parser.add_argument('--dup-per', type=float, help="Percentage of duplicates (0.0, 1.0)", default=0.3)
-parser.add_argument('--debug', type=bool, help="Print detailed execution of protocol (True or False)", default=False)
+parser.add_argument('--psi-type', type=int, help="EG-PSI Type (1 or 2). Default is 1.", default=1)
+parser.add_argument('--num-clients', type=int, help="Number of clients (Integer). Default is 10.", default=10)
+parser.add_argument('--num-ele', type=int, help="Number of elements in each client's dataset (Integer). Default is 10.", default=10)
+parser.add_argument('--seed', type=int, help="Random seed for dataset creation (Integer). Default is 42.", default=42)
+parser.add_argument('--dup-per', type=float, help="Percentage of duplicates (Between 0.0 and 1.0). Default is 0.3.", default=0.3)
+parser.add_argument('--debug', type=bool, help="Print detailed execution of protocol (True or False). Default is False.", default=False)
 
 args = parser.parse_args()
 
