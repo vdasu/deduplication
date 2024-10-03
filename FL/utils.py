@@ -85,23 +85,6 @@ def haiku_to_list(dataset_path="datasets/"):
     else:
         return haiku_list[:50000]
 
-def wiki_bio_to_list(dataset_path="datasets/"):
-    dataset = load_dataset("wiki_bio")
-
-    wiki_list = []
-
-    cnt = 0
-
-    for data in dataset["train"]:
-        if cnt < 250000:
-            text = data["target_text"]
-            wiki_list.append(text)
-            cnt += 1
-    
-    np.random.shuffle(wiki_list)
-
-    return wiki_list[:50000]
-
 def shakespeare_to_list(dataset_path="datasets/"):
     dataset = load_dataset("Trelis/tiny-shakespeare")
 
@@ -163,8 +146,6 @@ def get_text_dataset(dataset_name):
         data = rotten_to_list()
     elif dataset_name == "Haiku":
         data = haiku_to_list()
-    elif dataset_name == "WikiBio":
-        data = wiki_bio_to_list()
     elif dataset_name == "Shakespeare":
         data = shakespeare_to_list()
     elif dataset_name == "Sonnets":
