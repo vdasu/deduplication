@@ -45,7 +45,7 @@ client3_data_original = [1,5,7,8]
 all_client_data = [client1_data_original, client2_data_original, client3_data_original]
 
 # Create the deduplicator class with EG-PSI Type 1
-mpd = MultiPartyDeduplicator(client_data=all_client_data, data_type=EgPsiDataType.INT, eg_type=EgPsiType.TYPE1, debug=False)
+mpd = MultiPartyDeduplicator(client_data=all_client_data, data_type=EgPsiDataType.INT, eg_type=EgPsiType.TYPE1, debug=True)
 
 # Run EP-MPD
 mpd.deduplicate()
