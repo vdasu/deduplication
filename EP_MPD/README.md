@@ -23,7 +23,6 @@ The following components from the `ep_mpd` library are required to run deduplica
    1. `client_data`: A 2-D list where each element is the corresponding client's dataset. The protocol assumes that each client performs local deduplication to remove any duplicates that exist within their own datasets prior to multi-party deduplication.
    2. `data_type`: The datatype of the datasets i.e. `EgPsiDataType.INT` or `EgPsiDataType.STR`.
    3. `eg_type`: The type of EG-PSI to use for deduplication. Either `EgPsiType.TYPE1` or `EgPsiType.TYPE2`.
-   4. `debug`: Print each step of the deduplication protocol as clients form groups and deduplicate up to the root. Either `True` or `False`. (Warning: The `debug` option provides a detailed output of the progress of the deduplication. For large datasets and number of clients, the output might be difficult to parse manually. Should be used a for small experiments to visualize the protocol execution.)
   
    The class provides the following functions:
    1. `deduplicate()`: Runs the EP-MPD protocol with the provided attributes.
@@ -45,7 +44,7 @@ client3_data_original = [1,5,7,8]
 all_client_data = [client1_data_original, client2_data_original, client3_data_original]
 
 # Create the deduplicator class with EG-PSI Type 1
-mpd = MultiPartyDeduplicator(client_data=all_client_data, data_type=EgPsiDataType.INT, eg_type=EgPsiType.TYPE1, debug=True)
+mpd = MultiPartyDeduplicator(client_data=all_client_data, data_type=EgPsiDataType.INT, eg_type=EgPsiType.TYPE1)
 
 # Run EP-MPD
 mpd.deduplicate()
@@ -100,7 +99,7 @@ To validate the paper's claims with a different set of parameters, `main_int.py`
 
 ```
 usage: main_int.py [-h] [--psi-type PSI_TYPE] [--num-clients NUM_CLIENTS] [--num-ele NUM_ELE]
-                   [--seed SEED] [--dup-per DUP_PER] [--debug DEBUG]
+                   [--seed SEED] [--dup-per DUP_PER]
 
 Runs the EP-MPD deduplication protocol
 
@@ -112,7 +111,6 @@ options:
   --num-ele NUM_ELE     Number of elements in each client's dataset (Integer). Default is 10.
   --seed SEED           Random seed for dataset creation (Integer). Default is 42.
   --dup-per DUP_PER     Percentage of duplicates (Between 0.0 and 1.0). Default is 0.3.
-  --debug DEBUG         Print detailed execution of protocol (True or False). Default is False.
 ```
 
 For example, to get the timing results for 40 clients with 2^19 datasize and 30% duplicates you need to run:
