@@ -78,7 +78,7 @@ for x, y in zip(dedup_data_all, original_data_all):
 
 ## Reproduce the paper's results
 
-This repository provides all the original log files and python scripts to re-run the paper's experiments or generate the plots in the paper. The `run_paper` folder contains the logs for all the EP-MPD benchmarking experiments. The python scripts in the `run_paper` folder can be used to generate the plots in Figure 6,7, and 8 in the paper. You would need a local TeX installation and `matplotlib` (`pip install matplotlib`). The `run_paper` folder also contains the specifications of the machine used to run the experiments in the paper in `platform_spec.txt`. 
+This repository provides all the original log files and python scripts to re-run the paper's experiments or generate the plots in the paper. The `run_paper` folder contains the logs for all the EP-MPD benchmarking experiments. The python scripts in the `run_paper` folder can be used to generate the plots in Figure 6, 7, and 8 in the paper. You would need a local TeX installation and `matplotlib` (`pip install matplotlib`). The `run_paper` folder also contains the specifications of the machine used to run the experiments in the paper in `platform_spec.txt`. 
 
 The scripts and folders under `run_paper` are:
 
@@ -91,7 +91,7 @@ The scripts and folders under `run_paper` are:
 
 ## Small Scale Experiments
 
-THe `run_small_scale` folder provides scripts to run experiments on a smaller scale on commodity hardware. The folder contains the same files as the `run_paper` folder but with smaller parameters. We test with client count in [5,10,15,20,25] and dataset size in [2^5, 2^7, 2^10, 2^13, 2^15]. These experiments run in under 15 minutes on an M1 Pro Macbook Pro. The `type1_runs` and `type2_runs` folders contain the logs for the small scale experiments. These will be overwritten after running `run.sh`. Similar to before, use the `plot*.py` scripts to generate the corresponding plots. 
+The `run_small_scale` folder provides scripts to run experiments on a smaller scale on commodity hardware. The folder contains the same files as the `run_paper` folder but with smaller parameters. We test with client count in [5,10,15,20,25] and dataset size in [2^5, 2^7, 2^10, 2^13, 2^15]. These experiments run in under 15 minutes on an M1 Pro Macbook Pro. The `type1_runs` and `type2_runs` folders contain the logs for the small scale experiments. These will be overwritten after running `run.sh`. Similar to before, use the `plot*.py` scripts to generate the corresponding plots. 
 
 ## Custom Parameters
 
