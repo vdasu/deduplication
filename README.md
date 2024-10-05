@@ -1,6 +1,6 @@
 # Privacy-Preserving Data Deduplication for Enhancing Federated Learning of Language Models
 
-This repository contains the source code to our paper <i>Privacy-Preserving Data Deduplication for
+This repository contains the source code accompanying our paper <i>Privacy-Preserving Data Deduplication for
 Enhancing Federated Learning of Language Models</i>.
 
 The `EP_MPD` folder implements our core contribution, a privacy-preserving data duplication protocol that removes all pairwise duplicates among datasets held by 2 or more clients.
