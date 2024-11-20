@@ -17,7 +17,7 @@ The package requires a `python=3.10` environment. We recommend creating a new en
 
 The following components from the `ep_mpd` library are required to run deduplication for a set of clients:
 
-1. `EgPsiType`: Enum that is either `EgPsiType.TYPE1` or `EgPsiType.TYPE2` for Type 1 and Type 2 EG-PSI's respectively. Type 1 is based on symmetric key cryptography and Type 2 is based on public key cryptography. Refer to the paper for a detailed description of each type. 
+1. `EgPsiType`: Enum that is either `EgPsiType.TYPE1` or `EgPsiType.TYPE2` for Type 1 and Type 2 EG-PSI's respectively. Type 1 is based on symmetric key cryptography and Type 2 is based on public key cryptography. Refer to the paper for a detailed description of each type. In the paper, `EgPsiType.TYPE1` and `EgPsiType.TYPE2` are referred to as EG-PSI<sup>(I)</sup> and EG-PSI<sup>(II)</sup> respectively.
 2. `EgPsiDataType`: Enum that is either `EgPsiDataType.INT` or `EgPsiDataType.STR` for integer and string datatypes respectively. Currently, the library works with integer and string datatypes only.
 3. `MultiPartyDeduplicator`: Class that provides the privacy-preserving deduplication functionality. The `MultiPartyDeduplicator` has the following attributes:
    1. `client_data`: A 2-D list where each row is a client's dataset. For example, a 2-D list of shape `m*n` contains the data of `m` clients where the dataset size is `n`. The protocol assumes that each client performs local deduplication to remove any duplicates that exist within their own datasets prior to multi-party deduplication.
@@ -89,9 +89,25 @@ The scripts and folders under `run_paper` are:
 5. `run.sh`: The bash script runs the deduplication protocol using the parameters from the paper. Note that the paper considers a large scale setting and it may not be feasible to run them on commodity hardware. Refer to the next section for smaller scale experiments.
 6. `Figures`: Contains the plots used in the paper.
 
+To run the scripts, use the following commands:
+
+```bash
+cd run_paper
+chmod +x run.sh
+./run.sh
+```
+
 ## Small Scale Experiments
 
-The `run_small_scale` folder provides scripts to run experiments on a smaller scale on commodity hardware. The folder contains the same files as the `run_paper` folder but with smaller parameters. We test with client count in [5,10,15,20,25] and dataset size in [2^5, 2^7, 2^10, 2^13, 2^15]. These experiments run in under 15 minutes on an M1 Pro Macbook Pro. The `type1_runs` and `type2_runs` folders contain the logs for the small scale experiments. These will be overwritten after running `run.sh`. Similar to before, use the `plot*.py` scripts to generate the corresponding plots. 
+The `run_small_scale` folder provides scripts to run experiments on commodity hardware on a smaller scale. The folder contains the same files as the `run_paper` folder but with smaller parameters. We test with client count in [5,10,15,20,25] and dataset size in [2^5, 2^7, 2^10, 2^13, 2^15]. These experiments run in under 15 minutes on an M1 Pro Macbook Pro. The `type1_runs` and `type2_runs` folders contain the logs for the small-scale experiments. These will be overwritten after running `run.sh`. Like before, the `plot*.py` scripts are used to generate the corresponding plots. 
+
+To run the scripts, use the following commands:
+
+```bash
+cd run_small_scale
+chmod +x run.sh
+./run.sh
+```
 
 ## Custom Parameters
 
