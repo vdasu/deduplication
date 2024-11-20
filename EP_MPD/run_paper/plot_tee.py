@@ -1,28 +1,38 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from collections import defaultdict
+import shutil
 
 # use latex for font rendering with times new roman
 # add amsmath package for latex
-plt.rcParams.update(
-    {
-        "text.usetex": True,
-        "font.family": "Times New Roman",
-        "font.size": 12,
-        "text.latex.preamble": r"\usepackage{amsmath}",
-    }
-)
+
+if shutil.which("latex"):
+
+    plt.rcParams.update(
+        {
+            "text.usetex": True,
+            "font.family": "Times New Roman",
+            "font.size": 12,
+            "text.latex.preamble": r"\usepackage{amsmath}",
+        }
+    ) 
 
 # dataset sizes
 dsize = [10, 11, 13, 15, 17, 19]
-dsize_labels = ["$2^{10}$", "$2^{11}$", "$2^{13}$", "$2^{15}$", "$2^{17}$", "$2^{19}$"]
+if shutil.which("latex"):
+    dsize_labels = ["$2^{10}$", "$2^{11}$", "$2^{13}$", "$2^{15}$", "$2^{17}$", "$2^{19}$"]
+else:
+    dsize_labels = ["2^10", "2^11", "2^13", "2^15", "2^17", "2^19"]
 
 # clients size
 clients = [10, 20, 30, 40, 50]
 
 # duplication levels
 dup_level = [0.1, 0.3, 0.5, 0.7, 0.9]
-dup_labels = ["10\%", "30\%", "50\%", "70\%", "90\%"]
+if shutil.which("latex"):
+    dup_labels = ["10\%", "30\%", "50\%", "70\%", "90\%"]
+else:
+    dup_labels = ["10%", "30%", "50%", "70%", "90%"]
 
 
 def get_client_times(lines):
@@ -93,13 +103,13 @@ def plot_data(data, data_labels, name):
         x - width / 4 - width / 32,
         times_t1,
         width / 2,
-        label=r"$\ensuremath{\text {EP-MPD}^{(\text {I})}$",
+        label=r"$\ensuremath{\text {EP-MPD}^{(\text {I})}$" if shutil.which("latex") else "EP-MPD(I)",
     )
     bar2 = ax.bar(
         x + width / 4 + width / 32,
         times_t2,
         width / 2,
-        label=r"$\ensuremath{\text {EP-MPD}^{(\text {II})}$",
+        label=r"$\ensuremath{\text {EP-MPD}^{(\text {II})}$" if shutil.which("latex") else "EP-MPD(II)",
     )
 
     # Add some text for labels, title, and custom x-axis tick labels, etc.
