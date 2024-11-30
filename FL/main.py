@@ -50,6 +50,9 @@ torch.save(
 
 full_data = get_text_dataset(dataset_name=DATASET)
 
+# Original Dataset might have duplicates. Since we are artificially planting duplicates to observe their effect, clean up the original dataset
+full_data = list(set(full_data))
+
 train_data, test_data = random_split(full_data, [1 - TEST_RATIO, TEST_RATIO])
 
 test_set = TextDataset(data=test_data, tokenizer=tokenizer)

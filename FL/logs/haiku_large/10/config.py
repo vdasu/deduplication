@@ -1,19 +1,18 @@
-# ML PARAMETERS
+# FL and ML PARAMETERS
 MODEL_NAME = "gpt2-large"
 BATCH_SIZE = 8
 LEARNING_RATE = 5e-5
 DUPLICATE_RATE = 0.1 # between 0 and 1
 MAX_SEQ_LEN = 100
 EPOCHS = 1
+CLIENTS = 10
+ROUNDS = 5
 DATASET = "Haiku"
-# DATASET = "IMDB"
-
 EOS_TOKEN = "<|endoftext|>"
 BOS_TOKEN = "<|startoftext|>"
 PAD_TOKEN = "<|pad|>"
-
-TEST_RATIO = 0.2
-SEED = 123
+TEST_RATIO = 0.2 # Ratio of samples to use in the Test dataset for final perplexity evaluation
+SEED = 123 # Random seed to distribute dataset among clients, create duplicates, and create the test dataset
 
 # EP-MPD PARAMETERS
 # If True, then the EP-MPD deduplication will be applied to client datasets before FL training.
@@ -22,14 +21,7 @@ SEED = 123
 USE_EPMPD = True
 TYPE = 1 # Type can be 1 or 2
 
-# OTHER PARAMETERS
-MODEL_PATH = "trained_models"
-MODEL_CACHE = "models_cache"
-
-# FL PARAMETERS
-CLIENTS = 10
-ROUNDS = 5
-
-
 # Other params
 CACHE_PATH = "/scratch/vad5173"
+MODEL_PATH = "trained_models"
+MODEL_CACHE = "models_cache"
